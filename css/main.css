@@ -1,0 +1,3139 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
+@font-face {
+  font-family: 'JDSans';
+  src: url("../assets/fonts/JDSans-bold/JDSansPro-Bold.eot");
+  src: url("../assets/fonts/JDSans-bold/JDSansPro-Bold.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/JDSans-bold/JDSansPro-Bold.woff2") format("woff2"), url("../assets/fonts/JDSans-bold/JDSansPro-Bold.woff") format("woff"), url("../assets/fonts/JDSans-bold/JDSansPro-Bold.otf"), url("../assets/fonts/JDSans-bold/JDSansPro-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'JDSans';
+  src: url("../assets/fonts/JDSans-medium/JDSansPro-Medium.eot");
+  src: url("../assets/fonts/JDSans-medium/JDSansPro-Medium.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/JDSans-medium/JDSansPro-Medium.woff2") format("woff2"), url("../assets/fonts/JDSans-medium/JDSansPro-Medium.woff") format("woff"), url("../assets/fonts/JDSans-medium/JDSansPro-Medium.otf"), url("../assets/fonts/JDSans-medium/JDSansPro-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* line 5, Z:/CB Premium Course/Premium Template/scss/base/_base.scss */
+body {
+  background-color: #fff;
+  font-family: "Roboto", "Open Sans", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.3;
+  color: #333333;
+}
+
+/* line 14, Z:/CB Premium Course/Premium Template/scss/base/_base.scss */
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #367c2b;
+  font-family: "JDSans", Times, "Montserrat", sans-serif;
+  font-weight: bold;
+  text-transform: none;
+}
+
+/* line 27, Z:/CB Premium Course/Premium Template/scss/base/_base.scss */
+::selection {
+  background: #367c2b;
+  color: #fff;
+}
+
+/* line 32, Z:/CB Premium Course/Premium Template/scss/base/_base.scss */
+::-moz-selection {
+  background: #367c2b;
+  color: #fff;
+}
+
+/* line 40, Z:/CB Premium Course/Premium Template/scss/base/_base.scss */
+h1, .internals-titles, .error-card h1, #join-entire-page-content .join-form-header, #jfi-modal-dialog .join-form-header, .jfi-success-container .join-form-header, #cb-legal-content-block h1, #cb-legal-content-block #cookiesPolicy h2, #cb-legal-content-block #cookiesList h2, #cb-legal-content-block #cookiesPolicy h3, #cb-legal-content-block #cookiesList h3, #browse-by-container #browse-by-header, #browse-by-container #browse-by-header p, #after-apply-thank-you-header, #edit-preference-view #edit-preference-title, #subscription-title, .search-results-title, .jdp-title-inner-container .jdp-title-block-position .jdp-job-title {
+  text-transform: uppercase;
+}
+
+/* line 44, Z:/CB Premium Course/Premium Template/scss/base/_base.scss */
+p, #cb-legal-content-block #cookiesPolicy p, #cb-legal-content-block #cookiesList p {
+  color: #333333;
+  word-wrap: break-word;
+}
+
+/* line 50, Z:/CB Premium Course/Premium Template/scss/base/_base.scss */
+a {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  color: #367c2b;
+  text-decoration: none;
+}
+
+/* line 18, Z:/CB Premium Course/Premium Template/scss/abstracts/_mixins.scss */
+a:hover, a:active, a:focus {
+  text-decoration: underline;
+  color: #367c2b;
+}
+
+/* line 7, Z:/CB Premium Course/Premium Template/scss/base/_helpers.scss */
+.clearfix::after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+/* line 18, Z:/CB Premium Course/Premium Template/scss/base/_helpers.scss */
+.hide-text {
+  overflow: hidden;
+  padding: 0;
+  /* 1 */
+  text-indent: 101%;
+  white-space: nowrap;
+}
+
+/* line 31, Z:/CB Premium Course/Premium Template/scss/base/_helpers.scss */
+.visually-hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/* line 43, Z:/CB Premium Course/Premium Template/scss/base/_helpers.scss */
+.text-white {
+  color: #fff;
+}
+
+/* line 47, Z:/CB Premium Course/Premium Template/scss/base/_helpers.scss */
+.bold-text {
+  font-weight: bold;
+}
+
+/* line 51, Z:/CB Premium Course/Premium Template/scss/base/_helpers.scss */
+.full-wd {
+  width: 100%;
+}
+
+/* line 55, Z:/CB Premium Course/Premium Template/scss/base/_helpers.scss */
+.no-margin {
+  margin: 0px;
+}
+
+/* line 59, Z:/CB Premium Course/Premium Template/scss/base/_helpers.scss */
+.no-padding {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+/* line 65, Z:/CB Premium Course/Premium Template/scss/base/_helpers.scss */
+.link-center {
+  text-align: center;
+}
+
+/* line 71, Z:/CB Premium Course/Premium Template/scss/base/_helpers.scss */
+.visible-4k {
+  display: none !important;
+}
+
+/* line 77, Z:/CB Premium Course/Premium Template/scss/base/_helpers.scss */
+.featured-jobs {
+  padding-bottom: 50px;
+}
+
+/* line 83, Z:/CB Premium Course/Premium Template/scss/base/_helpers.scss */
+.no-break {
+  white-space: nowrap;
+}
+
+/* line 89, Z:/CB Premium Course/Premium Template/scss/base/_helpers.scss */
+.hide-not-ready + .not-ready,
+.hide-not-ready + style + .not-ready,
+.hide-not-ready + footer > .not-ready,
+.hide-not-ready + style + footer > .not-ready {
+  display: none;
+}
+
+/* line 98, Z:/CB Premium Course/Premium Template/scss/base/_helpers.scss */
+img {
+  margin: 0 auto;
+}
+
+/* line 104, Z:/CB Premium Course/Premium Template/scss/base/_helpers.scss */
+video {
+  width: 100%;
+}
+
+/* line 109, Z:/CB Premium Course/Premium Template/scss/base/_helpers.scss */
+.aligned-text {
+  text-align: center;
+}
+
+/* line 113, Z:/CB Premium Course/Premium Template/scss/base/_helpers.scss */
+ul.aligned-list {
+  padding: 0px;
+  list-style: none;
+  text-align: center;
+}
+
+/* line 120, Z:/CB Premium Course/Premium Template/scss/base/_helpers.scss */
+:lang(es-ES) body .hidden-en {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  /* line 128, Z:/CB Premium Course/Premium Template/scss/base/_helpers.scss */
+  .featured-jobs {
+    padding-bottom: 100px;
+  }
+  /* line 131, Z:/CB Premium Course/Premium Template/scss/base/_helpers.scss */
+  .aligned-text {
+    text-align: left;
+  }
+  /* line 135, Z:/CB Premium Course/Premium Template/scss/base/_helpers.scss */
+  ul.aligned-list {
+    padding-left: 40px;
+    list-style: disc;
+    text-align: left;
+  }
+}
+
+@media (min-width: 1920px) {
+  /* line 146, Z:/CB Premium Course/Premium Template/scss/base/_helpers.scss */
+  .hidden-4k {
+    background: none !important;
+    height: auto !important;
+  }
+  /* line 151, Z:/CB Premium Course/Premium Template/scss/base/_helpers.scss */
+  .visible-4k {
+    display: block !important;
+  }
+}
+
+@-webkit-keyframes animationRight {
+  from {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  50% {
+    -webkit-transform: translateX(6px);
+    transform: translateX(6px);
+  }
+  to {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+@keyframes animationRight {
+  from {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  50% {
+    -webkit-transform: translateX(6px);
+    transform: translateX(6px);
+  }
+  to {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+/* line 8, Z:/CB Premium Course/Premium Template/scss/layout/_header.scss */
+.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+  max-height: none;
+}
+
+/* line 19, Z:/CB Premium Course/Premium Template/scss/layout/_header.scss */
+.navbar-default {
+  background-color: transparent;
+  border-color: inherit;
+  border: none;
+  border-radius: 0px;
+  margin-bottom: 0px;
+  min-height: 0px;
+}
+
+/* line 28, Z:/CB Premium Course/Premium Template/scss/layout/_header.scss */
+.navbar-default .navbar-header {
+  background-color: #fff;
+  height: auto;
+}
+
+/* line 33, Z:/CB Premium Course/Premium Template/scss/layout/_header.scss */
+.navbar-default .navbar-header .navbar-brand {
+  max-width: 200px;
+  height: auto;
+  padding: 0px;
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+/* line 42, Z:/CB Premium Course/Premium Template/scss/layout/_header.scss */
+.navbar-default .navbar-header .navbar-brand img {
+  width: 100%;
+}
+
+/* line 51, Z:/CB Premium Course/Premium Template/scss/layout/_header.scss */
+.navbar-default .navbar-toggle {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  background-color: transparent;
+  margin: 0px;
+  top: 16px;
+  right: 15px;
+  border: none;
+  padding: 9px 0px;
+}
+
+/* line 18, Z:/CB Premium Course/Premium Template/scss/abstracts/_mixins.scss */
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:active, .navbar-default .navbar-toggle:focus {
+  background-color: transparent;
+}
+
+/* line 66, Z:/CB Premium Course/Premium Template/scss/layout/_header.scss */
+.navbar-default .navbar-toggle.collapsed {
+  background-color: transparent;
+}
+
+/* line 69, Z:/CB Premium Course/Premium Template/scss/layout/_header.scss */
+.navbar-default .navbar-toggle.collapsed .icon-bar {
+  background-color: #367c2b;
+}
+
+/* line 72, Z:/CB Premium Course/Premium Template/scss/layout/_header.scss */
+.navbar-default .navbar-toggle.collapsed .icon-bar.top-bar {
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
+}
+
+/* line 77, Z:/CB Premium Course/Premium Template/scss/layout/_header.scss */
+.navbar-default .navbar-toggle.collapsed .icon-bar.middle-bar {
+  opacity: 1;
+}
+
+/* line 81, Z:/CB Premium Course/Premium Template/scss/layout/_header.scss */
+.navbar-default .navbar-toggle.collapsed .icon-bar.bottom-bar {
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
+}
+
+/* line 90, Z:/CB Premium Course/Premium Template/scss/layout/_header.scss */
+.navbar-default .navbar-toggle .icon-bar {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  background-color: #367c2b;
+  height: 3px;
+  width: 25px;
+}
+
+/* line 98, Z:/CB Premium Course/Premium Template/scss/layout/_header.scss */
+.navbar-default .navbar-toggle .icon-bar.top-bar {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-transform-origin: 10% 10%;
+  transform-origin: 10% 10%;
+}
+
+/* line 105, Z:/CB Premium Course/Premium Template/scss/layout/_header.scss */
+.navbar-default .navbar-toggle .icon-bar.middle-bar {
+  opacity: 0;
+}
+
+/* line 109, Z:/CB Premium Course/Premium Template/scss/layout/_header.scss */
+.navbar-default .navbar-toggle .icon-bar.bottom-bar {
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-transform-origin: 10% 90%;
+  transform-origin: 10% 90%;
+}
+
+/* line 122, Z:/CB Premium Course/Premium Template/scss/layout/_header.scss */
+.navbar-default .navbar-collapse {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: none;
+  background-color: #367c2b;
+}
+
+/* line 142, Z:/CB Premium Course/Premium Template/scss/layout/_header.scss */
+.navbar-default ul.navbar-nav {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+  background-color: transparent;
+}
+
+/* line 149, Z:/CB Premium Course/Premium Template/scss/layout/_header.scss */
+.navbar-default ul.navbar-nav li a, .navbar-default ul.navbar-nav .open ul.dropdown-menu > li > a, .navbar-default ul.navbar-nav ul.dropdown-menu > li > a {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  background-color: transparent;
+  font-size: 18px;
+  color: #fff;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-transform: none;
+  word-break: break-word;
+  white-space: normal;
+  line-height: 1.3;
+  font-family: "JDSans", Times, "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+/* line 18, Z:/CB Premium Course/Premium Template/scss/abstracts/_mixins.scss */
+.navbar-default ul.navbar-nav li a:hover, .navbar-default ul.navbar-nav li a:active, .navbar-default ul.navbar-nav li a:focus, .navbar-default ul.navbar-nav .open ul.dropdown-menu > li > a:hover, .navbar-default ul.navbar-nav .open ul.dropdown-menu > li > a:active, .navbar-default ul.navbar-nav .open ul.dropdown-menu > li > a:focus, .navbar-default ul.navbar-nav ul.dropdown-menu > li > a:hover, .navbar-default ul.navbar-nav ul.dropdown-menu > li > a:active, .navbar-default ul.navbar-nav ul.dropdown-menu > li > a:focus {
+  background-color: #fdda01;
+  color: #333333;
+  text-decoration: none;
+}
+
+/* line 176, Z:/CB Premium Course/Premium Template/scss/layout/_header.scss */
+.navbar-default ul.navbar-nav li.active > a {
+  background-color: #fdda01;
+  color: #333333;
+}
+
+/* line 18, Z:/CB Premium Course/Premium Template/scss/abstracts/_mixins.scss */
+.navbar-default ul.navbar-nav li.active > a:hover, .navbar-default ul.navbar-nav li.active > a:active, .navbar-default ul.navbar-nav li.active > a:focus {
+  background-color: #d7b901;
+  color: #333333;
+}
+
+/* line 194, Z:/CB Premium Course/Premium Template/scss/layout/_header.scss */
+.navbar-default ul.navbar-nav li.dropdown i.fa.fa-angle-down {
+  display: none;
+  padding-left: 5px;
+}
+
+/* line 198, Z:/CB Premium Course/Premium Template/scss/layout/_header.scss */
+.navbar-default ul.navbar-nav li.dropdown i.fa.fa-angle-down:before {
+  content: "\f107";
+}
+
+/* line 207, Z:/CB Premium Course/Premium Template/scss/layout/_header.scss */
+.navbar-default ul.navbar-nav li.dropdown.open > a {
+  background-color: #367c2b;
+  color: #fff;
+  border-color: transparent;
+}
+
+/* line 219, Z:/CB Premium Course/Premium Template/scss/layout/_header.scss */
+.navbar-default ul.navbar-nav li.dropdown.open ul.dropdown-menu, .navbar-default ul.navbar-nav li.dropdown ul.dropdown-menu {
+  background-color: #2e6925;
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border-radius: 0px;
+  display: block;
+  position: relative;
+  width: 100%;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: none;
+}
+
+/* line 238, Z:/CB Premium Course/Premium Template/scss/layout/_header.scss */
+.navbar-default ul.navbar-nav li.dropdown.open ul.dropdown-menu > li > a, .navbar-default ul.navbar-nav li.dropdown ul.dropdown-menu > li > a {
+  color: #fff;
+}
+
+/* line 18, Z:/CB Premium Course/Premium Template/scss/abstracts/_mixins.scss */
+.navbar-default ul.navbar-nav li.dropdown.open ul.dropdown-menu > li > a:hover, .navbar-default ul.navbar-nav li.dropdown.open ul.dropdown-menu > li > a:active, .navbar-default ul.navbar-nav li.dropdown.open ul.dropdown-menu > li > a:focus, .navbar-default ul.navbar-nav li.dropdown ul.dropdown-menu > li > a:hover, .navbar-default ul.navbar-nav li.dropdown ul.dropdown-menu > li > a:active, .navbar-default ul.navbar-nav li.dropdown ul.dropdown-menu > li > a:focus {
+  background-color: #fdda01;
+  color: #333333;
+}
+
+/* line 249, Z:/CB Premium Course/Premium Template/scss/layout/_header.scss */
+.navbar-default ul.navbar-nav li.dropdown.open ul.dropdown-menu > li.active > a, .navbar-default ul.navbar-nav li.dropdown ul.dropdown-menu > li.active > a {
+  background-color: #fdda01;
+  color: #333333;
+}
+
+/* line 18, Z:/CB Premium Course/Premium Template/scss/abstracts/_mixins.scss */
+.navbar-default ul.navbar-nav li.dropdown.open ul.dropdown-menu > li.active > a:hover, .navbar-default ul.navbar-nav li.dropdown.open ul.dropdown-menu > li.active > a:active, .navbar-default ul.navbar-nav li.dropdown.open ul.dropdown-menu > li.active > a:focus, .navbar-default ul.navbar-nav li.dropdown ul.dropdown-menu > li.active > a:hover, .navbar-default ul.navbar-nav li.dropdown ul.dropdown-menu > li.active > a:active, .navbar-default ul.navbar-nav li.dropdown ul.dropdown-menu > li.active > a:focus {
+  background-color: #d7b901;
+  color: #333333;
+}
+
+/* line 273, Z:/CB Premium Course/Premium Template/scss/layout/_header.scss */
+.search-toggle-button-mobile {
+  color: #367c2b;
+  font-size: 18px;
+  font-weight: bold;
+  width: inherit;
+  border-radius: 0px;
+  margin: 0px;
+  position: absolute;
+  top: 12px;
+  right: 55px;
+  z-index: 3;
+}
+
+/* line 275, Z:/CB Premium Course/Premium Template/scss/layout/_header.scss */
+.search-toggle-button-mobile.collapsed {
+  color: #367c2b;
+}
+
+@media (min-width: 768px) {
+  /* line 296, Z:/CB Premium Course/Premium Template/scss/layout/_header.scss */
+  .navbar-default {
+    background-color: transparent;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 0px;
+  }
+  /* line 302, Z:/CB Premium Course/Premium Template/scss/layout/_header.scss */
+  .navbar-default .join-top {
+    padding-left: 20px;
+  }
+  /* line 307, Z:/CB Premium Course/Premium Template/scss/layout/_header.scss */
+  .navbar-default .navbar-header {
+    background-color: transparent;
+    float: left;
+  }
+  /* line 312, Z:/CB Premium Course/Premium Template/scss/layout/_header.scss */
+  .navbar-default .navbar-header .navbar-brand {
+    max-width: none;
+    margin: 0px;
+  }
+  /* line 321, Z:/CB Premium Course/Premium Template/scss/layout/_header.scss */
+  .navbar-default .navbar-collapse {
+    background-color: #fff;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+  }
+  /* line 339, Z:/CB Premium Course/Premium Template/scss/layout/_header.scss */
+  .navbar-default ul.navbar-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 0;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0 auto;
+    float: right;
+  }
+  /* line 342, Z:/CB Premium Course/Premium Template/scss/layout/_header.scss */
+  .navbar-default ul.navbar-nav li {
+    display: block;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+  }
+  /* line 353, Z:/CB Premium Course/Premium Template/scss/layout/_header.scss */
+  .navbar-default ul.navbar-nav li a, .navbar-default ul.navbar-nav .open ul.dropdown-menu > li > a, .navbar-default ul.navbar-nav ul.dropdown-menu > li > a {
+    font-size: 14px;
+    color: #333333;
+    word-break: normal;
+    white-space: nowrap;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  /* line 18, Z:/CB Premium Course/Premium Template/scss/abstracts/_mixins.scss */
+  .navbar-default ul.navbar-nav li a:hover, .navbar-default ul.navbar-nav li a:active, .navbar-default ul.navbar-nav li a:focus, .navbar-default ul.navbar-nav .open ul.dropdown-menu > li > a:hover, .navbar-default ul.navbar-nav .open ul.dropdown-menu > li > a:active, .navbar-default ul.navbar-nav .open ul.dropdown-menu > li > a:focus, .navbar-default ul.navbar-nav ul.dropdown-menu > li > a:hover, .navbar-default ul.navbar-nav ul.dropdown-menu > li > a:active, .navbar-default ul.navbar-nav ul.dropdown-menu > li > a:focus {
+    background-color: transparent;
+    color: #367c2b;
+    text-decoration: none;
+  }
+  /* line 370, Z:/CB Premium Course/Premium Template/scss/layout/_header.scss */
+  .navbar-default ul.navbar-nav li.active > a {
+    background-color: transparent;
+    color: #367c2b;
+  }
+  /* line 18, Z:/CB Premium Course/Premium Template/scss/abstracts/_mixins.scss */
+  .navbar-default ul.navbar-nav li.active > a:hover, .navbar-default ul.navbar-nav li.active > a:active, .navbar-default ul.navbar-nav li.active > a:focus {
+    background-color: transparent;
+    color: #2e6925;
+  }
+  /* line 382, Z:/CB Premium Course/Premium Template/scss/layout/_header.scss */
+  .navbar-default ul.navbar-nav li.dropdown {
+    padding-bottom: 20px;
+  }
+  /* line 388, Z:/CB Premium Course/Premium Template/scss/layout/_header.scss */
+  .navbar-default ul.navbar-nav li.dropdown.open:hover ul.dropdown-menu, .navbar-default ul.navbar-nav li.dropdown:hover ul.dropdown-menu {
+    display: block;
+  }
+  /* line 396, Z:/CB Premium Course/Premium Template/scss/layout/_header.scss */
+  .navbar-default ul.navbar-nav li.dropdown i.fa.fa-angle-down {
+    display: inline-block;
+    padding-left: 2px;
+  }
+  /* line 408, Z:/CB Premium Course/Premium Template/scss/layout/_header.scss */
+  .navbar-default ul.navbar-nav li.dropdown.open > a {
+    background-color: transparent;
+    color: #367c2b;
+  }
+  /* line 419, Z:/CB Premium Course/Premium Template/scss/layout/_header.scss */
+  .navbar-default ul.navbar-nav li.dropdown.open ul.dropdown-menu, .navbar-default ul.navbar-nav li.dropdown ul.dropdown-menu {
+    background-color: #fff;
+    text-align: left;
+    border: none;
+    border-radius: 0px;
+    width: 100%;
+    margin-top: 0px;
+    display: none;
+    position: absolute;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  }
+  /* line 435, Z:/CB Premium Course/Premium Template/scss/layout/_header.scss */
+  .navbar-default ul.navbar-nav li.dropdown.open ul.dropdown-menu > li, .navbar-default ul.navbar-nav li.dropdown ul.dropdown-menu > li {
+    border: none;
+    border-bottom: 2px solid #eeeeee;
+  }
+  /* line 439, Z:/CB Premium Course/Premium Template/scss/layout/_header.scss */
+  .navbar-default ul.navbar-nav li.dropdown.open ul.dropdown-menu > li:last-child, .navbar-default ul.navbar-nav li.dropdown ul.dropdown-menu > li:last-child {
+    border-bottom: none;
+  }
+  /* line 444, Z:/CB Premium Course/Premium Template/scss/layout/_header.scss */
+  .navbar-default ul.navbar-nav li.dropdown.open ul.dropdown-menu > li > a, .navbar-default ul.navbar-nav li.dropdown ul.dropdown-menu > li > a {
+    color: #000;
+    word-break: break-word;
+    white-space: normal;
+    display: block;
+    border-left: 6px solid transparent;
+    padding-left: 10px;
+  }
+  /* line 18, Z:/CB Premium Course/Premium Template/scss/abstracts/_mixins.scss */
+  .navbar-default ul.navbar-nav li.dropdown.open ul.dropdown-menu > li > a:hover, .navbar-default ul.navbar-nav li.dropdown.open ul.dropdown-menu > li > a:active, .navbar-default ul.navbar-nav li.dropdown.open ul.dropdown-menu > li > a:focus, .navbar-default ul.navbar-nav li.dropdown ul.dropdown-menu > li > a:hover, .navbar-default ul.navbar-nav li.dropdown ul.dropdown-menu > li > a:active, .navbar-default ul.navbar-nav li.dropdown ul.dropdown-menu > li > a:focus {
+    background-color: #eeeeee;
+    border-left-color: #367c2b;
+  }
+  /* line 460, Z:/CB Premium Course/Premium Template/scss/layout/_header.scss */
+  .navbar-default ul.navbar-nav li.dropdown.open ul.dropdown-menu > li.active > a, .navbar-default ul.navbar-nav li.dropdown ul.dropdown-menu > li.active > a {
+    background-color: #eeeeee;
+    border-left-color: #367c2b;
+  }
+  /* line 18, Z:/CB Premium Course/Premium Template/scss/abstracts/_mixins.scss */
+  .navbar-default ul.navbar-nav li.dropdown.open ul.dropdown-menu > li.active > a:hover, .navbar-default ul.navbar-nav li.dropdown.open ul.dropdown-menu > li.active > a:active, .navbar-default ul.navbar-nav li.dropdown.open ul.dropdown-menu > li.active > a:focus, .navbar-default ul.navbar-nav li.dropdown ul.dropdown-menu > li.active > a:hover, .navbar-default ul.navbar-nav li.dropdown ul.dropdown-menu > li.active > a:active, .navbar-default ul.navbar-nav li.dropdown ul.dropdown-menu > li.active > a:focus {
+    background-color: #cacaca;
+    border-left-color: #2e6925;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 488, Z:/CB Premium Course/Premium Template/scss/layout/_header.scss */
+  .navbar-default {
+    padding-top: 25px;
+  }
+  /* line 498, Z:/CB Premium Course/Premium Template/scss/layout/_header.scss */
+  .navbar-default ul.navbar-nav {
+    padding-top: 8px;
+  }
+  /* line 503, Z:/CB Premium Course/Premium Template/scss/layout/_header.scss */
+  .navbar-default ul.navbar-nav li a, .navbar-default ul.navbar-nav .open ul.dropdown-menu > li > a, .navbar-default ul.navbar-nav ul.dropdown-menu > li > a {
+    font-size: 18px;
+  }
+  /* line 509, Z:/CB Premium Course/Premium Template/scss/layout/_header.scss */
+  .navbar-default ul.navbar-nav li.dropdown {
+    padding-bottom: 28px;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 534, Z:/CB Premium Course/Premium Template/scss/layout/_header.scss */
+  .navbar-default .join-top {
+    padding-left: 25px;
+  }
+  /* line 550, Z:/CB Premium Course/Premium Template/scss/layout/_header.scss */
+  .navbar-default ul.navbar-nav li a, .navbar-default ul.navbar-nav .open ul.dropdown-menu > li > a, .navbar-default ul.navbar-nav ul.dropdown-menu > li > a {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
+/* line 5, Z:/CB Premium Course/Premium Template/scss/layout/_footer.scss */
+.not-ready {
+  background-color: #333333;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/* line 10, Z:/CB Premium Course/Premium Template/scss/layout/_footer.scss */
+.not-ready h2 {
+  text-align: center;
+  color: #fff;
+  font-size: 34px;
+  padding-bottom: 20px;
+}
+
+/* line 17, Z:/CB Premium Course/Premium Template/scss/layout/_footer.scss */
+.not-ready p, .not-ready #cb-legal-content-block #cookiesPolicy p, #cb-legal-content-block #cookiesPolicy .not-ready p, .not-ready #cb-legal-content-block #cookiesList p, #cb-legal-content-block #cookiesList .not-ready p {
+  text-align: center;
+  color: #fff;
+}
+
+/* line 22, Z:/CB Premium Course/Premium Template/scss/layout/_footer.scss */
+.not-ready .button-container {
+  text-align: center;
+  padding-top: 30px;
+}
+
+/* line 28, Z:/CB Premium Course/Premium Template/scss/layout/_footer.scss */
+footer {
+  background-color: #eeeeee;
+}
+
+/* line 32, Z:/CB Premium Course/Premium Template/scss/layout/_footer.scss */
+.footer-top {
+  padding: 30px 0px;
+}
+
+/* line 35, Z:/CB Premium Course/Premium Template/scss/layout/_footer.scss */
+.footer-top .logo-footer {
+  text-align: center;
+  padding: 20px 0px;
+}
+
+/* line 39, Z:/CB Premium Course/Premium Template/scss/layout/_footer.scss */
+.footer-top .logo-footer a {
+  display: inline-block;
+}
+
+/* line 44, Z:/CB Premium Course/Premium Template/scss/layout/_footer.scss */
+.footer-top .navigation {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* line 51, Z:/CB Premium Course/Premium Template/scss/layout/_footer.scss */
+.footer-top .navigation li {
+  display: inline-block;
+  padding: 0px 8px;
+}
+
+/* line 55, Z:/CB Premium Course/Premium Template/scss/layout/_footer.scss */
+.footer-top .navigation li a {
+  color: #000;
+  font-weight: bold;
+  font-family: "JDSans", Times, "Montserrat", sans-serif;
+}
+
+/* line 63, Z:/CB Premium Course/Premium Template/scss/layout/_footer.scss */
+.footer-top .notice {
+  text-align: center;
+}
+
+/* line 66, Z:/CB Premium Course/Premium Template/scss/layout/_footer.scss */
+.footer-top .notice a {
+  color: #333333;
+  text-decoration: underline;
+}
+
+/* line 18, Z:/CB Premium Course/Premium Template/scss/abstracts/_mixins.scss */
+.footer-top .notice a:hover, .footer-top .notice a:active, .footer-top .notice a:focus {
+  color: #367c2b;
+}
+
+/* line 76, Z:/CB Premium Course/Premium Template/scss/layout/_footer.scss */
+.footer-top .copyright {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* line 83, Z:/CB Premium Course/Premium Template/scss/layout/_footer.scss */
+.footer-top .copyright li {
+  display: block;
+  padding-bottom: 5px;
+}
+
+/* line 87, Z:/CB Premium Course/Premium Template/scss/layout/_footer.scss */
+.footer-top .copyright li p, .footer-top .copyright li #cb-legal-content-block #cookiesPolicy p, #cb-legal-content-block #cookiesPolicy .footer-top .copyright li p, .footer-top .copyright li #cb-legal-content-block #cookiesList p, #cb-legal-content-block #cookiesList .footer-top .copyright li p {
+  margin: 0px;
+}
+
+/* line 91, Z:/CB Premium Course/Premium Template/scss/layout/_footer.scss */
+.footer-top .copyright li a {
+  color: #000;
+}
+
+/* line 95, Z:/CB Premium Course/Premium Template/scss/layout/_footer.scss */
+.footer-top .copyright li.divider {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  /* line 108, Z:/CB Premium Course/Premium Template/scss/layout/_footer.scss */
+  .footer-top .logo-footer {
+    text-align: left;
+    padding: 0px;
+  }
+  /* line 113, Z:/CB Premium Course/Premium Template/scss/layout/_footer.scss */
+  .footer-top .navigation {
+    text-align: right;
+    margin: 0px;
+    padding-top: 25px;
+  }
+  /* line 119, Z:/CB Premium Course/Premium Template/scss/layout/_footer.scss */
+  .footer-top .notice {
+    text-align: left;
+    padding-top: 20px;
+  }
+  /* line 124, Z:/CB Premium Course/Premium Template/scss/layout/_footer.scss */
+  .footer-top .copyright {
+    margin-top: 30px;
+    text-align: left;
+  }
+  /* line 128, Z:/CB Premium Course/Premium Template/scss/layout/_footer.scss */
+  .footer-top .copyright li {
+    display: inline;
+    padding-bottom: 0px;
+  }
+  /* line 132, Z:/CB Premium Course/Premium Template/scss/layout/_footer.scss */
+  .footer-top .copyright li p, .footer-top .copyright li #cb-legal-content-block #cookiesPolicy p, #cb-legal-content-block #cookiesPolicy .footer-top .copyright li p, .footer-top .copyright li #cb-legal-content-block #cookiesList p, #cb-legal-content-block #cookiesList .footer-top .copyright li p {
+    display: inline;
+  }
+  /* line 142, Z:/CB Premium Course/Premium Template/scss/layout/_footer.scss */
+  .footer-top .social-icons {
+    padding-top: 25px;
+  }
+  /* line 145, Z:/CB Premium Course/Premium Template/scss/layout/_footer.scss */
+  .footer-top .social-icons .social-items {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 160, Z:/CB Premium Course/Premium Template/scss/layout/_footer.scss */
+  .footer-top .copyright li.divider {
+    display: inline;
+  }
+}
+
+/* line 39, Z:/CB Premium Course/Premium Template/scss/components/_button.scss */
+.btn-join, .btn-join.active.focus, .btn-join.active:focus, .btn-join.active:hover, .btn-join.focus:active, .btn-join:active:focus, .btn-join:active:hover {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  background-color: #fdda01;
+  padding: 10px 15px;
+  color: #000;
+  text-decoration: none;
+  text-align: center;
+  border: none;
+  border-radius: 0px;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+  line-height: 1.3;
+  outline: none;
+  font-size: 16px;
+  font-family: "JDSans", Times, "Montserrat", sans-serif;
+  font-weight: bold;
+  position: relative;
+}
+
+/* line 18, Z:/CB Premium Course/Premium Template/scss/abstracts/_mixins.scss */
+.btn-join:hover, .btn-join.active:hover, .btn-join:hover:active, .btn-join:active, .btn-join.focus:active, .btn-join:active:focus, .btn-join:active:hover, .btn-join:focus, .btn-join.active:focus, .btn-join:focus:active {
+  background-color: #d7b901;
+  text-decoration: none;
+  color: #000;
+  border: none;
+}
+
+/* line 57, Z:/CB Premium Course/Premium Template/scss/components/_button.scss */
+.primary-button, .btn-default, .btn-general {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  background-color: #fdda01;
+  padding: 10px 15px;
+  color: #000;
+  text-decoration: none;
+  text-align: center;
+  border: none;
+  border-radius: 0px;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+  line-height: 1.3;
+  outline: none;
+  font-size: 16px;
+  font-family: "JDSans", Times, "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+/* line 18, Z:/CB Premium Course/Premium Template/scss/abstracts/_mixins.scss */
+.primary-button:hover, .primary-button:active, .primary-button:focus, .btn-default:hover, .btn-default:active, .btn-default:focus, .btn-general:hover, .btn-general:active, .btn-general:focus {
+  background-color: #d7b901;
+  text-decoration: none;
+  color: #000;
+  border: none;
+}
+
+/* line 61, Z:/CB Premium Course/Premium Template/scss/components/_button.scss */
+.primary-button.active.focus, .primary-button.active:focus, .primary-button.active:hover, .primary-button:active.focus, .primary-button:active:focus, .primary-button:active:hover, .btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .btn-general.active.focus, .btn-general.active:focus, .btn-general.active:hover, .btn-general:active.focus, .btn-general:active:focus, .btn-general:active:hover {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  background-color: #fdda01;
+  padding: 10px 15px;
+  color: #000;
+  text-decoration: none;
+  text-align: center;
+  border: none;
+  border-radius: 0px;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+  line-height: 1.3;
+  outline: none;
+  font-size: 16px;
+  font-family: "JDSans", Times, "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+/* line 18, Z:/CB Premium Course/Premium Template/scss/abstracts/_mixins.scss */
+.primary-button.active.focus:hover, .primary-button.active.focus:active, .primary-button.active.focus:focus, .primary-button.active:focus:hover, .primary-button.active:focus:active, .primary-button.active:focus:focus, .primary-button.active:hover:hover, .primary-button.active:hover:active, .primary-button.active:hover:focus, .primary-button:active.focus:hover, .primary-button:active.focus:active, .primary-button:active.focus:focus, .primary-button:active:focus:hover, .primary-button:active:focus:active, .primary-button:active:focus:focus, .primary-button:active:hover:hover, .primary-button:active:hover:active, .primary-button:active:hover:focus, .btn-default.active.focus:hover, .btn-default.active.focus:active, .btn-default.active.focus:focus, .btn-default.active:focus:hover, .btn-default.active:focus:active, .btn-default.active:focus:focus, .btn-default.active:hover:hover, .btn-default.active:hover:active, .btn-default.active:hover:focus, .btn-default:active.focus:hover, .btn-default:active.focus:active, .btn-default:active.focus:focus, .btn-default:active:focus:hover, .btn-default:active:focus:active, .btn-default:active:focus:focus, .btn-default:active:hover:hover, .btn-default:active:hover:active, .btn-default:active:hover:focus, .btn-general.active.focus:hover, .btn-general.active.focus:active, .btn-general.active.focus:focus, .btn-general.active:focus:hover, .btn-general.active:focus:active, .btn-general.active:focus:focus, .btn-general.active:hover:hover, .btn-general.active:hover:active, .btn-general.active:hover:focus, .btn-general:active.focus:hover, .btn-general:active.focus:active, .btn-general:active.focus:focus, .btn-general:active:focus:hover, .btn-general:active:focus:active, .btn-general:active:focus:focus, .btn-general:active:hover:hover, .btn-general:active:hover:active, .btn-general:active:hover:focus {
+  background-color: #d7b901;
+  text-decoration: none;
+  color: #000;
+  border: none;
+}
+
+@media (min-width: 992px) {
+  /* line 77, Z:/CB Premium Course/Premium Template/scss/components/_button.scss */
+  .btn-join, .btn-join.active.focus, .btn-join.active:focus, .btn-join.active:hover, .btn-join.focus:active, .btn-join:active:focus, .btn-join:active:hover {
+    font-size: 18px;
+  }
+  /* line 82, Z:/CB Premium Course/Premium Template/scss/components/_button.scss */
+  .primary-button, .btn-default, .btn-general {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 91, Z:/CB Premium Course/Premium Template/scss/components/_button.scss */
+  .btn-join, .btn-join.active.focus, .btn-join.active:focus, .btn-join.active:hover, .btn-join.focus:active, .btn-join:active:focus, .btn-join:active:hover {
+    min-width: 262px;
+  }
+}
+
+/* line 8, Z:/CB Premium Course/Premium Template/scss/components/_carousel.scss */
+.carousel-fade .carousel-inner .item {
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+}
+
+/* line 14, Z:/CB Premium Course/Premium Template/scss/components/_carousel.scss */
+.carousel-fade .carousel-inner .item,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  opacity: 0;
+}
+
+/* line 20, Z:/CB Premium Course/Premium Template/scss/components/_carousel.scss */
+.carousel-fade .carousel-inner .active,
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+
+/* line 26, Z:/CB Premium Course/Premium Template/scss/components/_carousel.scss */
+.carousel-fade .carousel-inner .next,
+.carousel-fade .carousel-inner .prev,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+/* line 39, Z:/CB Premium Course/Premium Template/scss/components/_carousel.scss */
+.custom-carousel {
+  background-color: #fff;
+}
+
+/* line 42, Z:/CB Premium Course/Premium Template/scss/components/_carousel.scss */
+.custom-carousel .indicators-container {
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 10px;
+  top: auto;
+  margin: 0 auto;
+}
+
+/* line 51, Z:/CB Premium Course/Premium Template/scss/components/_carousel.scss */
+.custom-carousel .indicators-container .carousel-indicators {
+  text-align: center;
+  width: auto;
+  margin: 0px 15px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+/* line 62, Z:/CB Premium Course/Premium Template/scss/components/_carousel.scss */
+.custom-carousel .indicators-container .carousel-indicators li {
+  background-color: transparent;
+  border: 1px solid #367c2b;
+  width: 15px;
+  height: 15px;
+  margin: 0px;
+  border-radius: 100%;
+  margin: 0px 5px;
+  -webkit-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+/* line 18, Z:/CB Premium Course/Premium Template/scss/abstracts/_mixins.scss */
+.custom-carousel .indicators-container .carousel-indicators li:hover, .custom-carousel .indicators-container .carousel-indicators li:active, .custom-carousel .indicators-container .carousel-indicators li:focus {
+  background-color: rgba(54, 124, 43, 0.5);
+}
+
+/* line 11, Z:/CB Premium Course/Premium Template/scss/abstracts/_mixins.scss */
+.custom-carousel .indicators-container .carousel-indicators .active, .custom-carousel .indicators-container .carousel-indicators .active:hover, .custom-carousel .indicators-container .carousel-indicators .active:active, .custom-carousel .indicators-container .carousel-indicators .active:focus {
+  background-color: #367c2b;
+  border: 1px solid #367c2b;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+}
+
+@media (min-width: 768px) {
+  /* line 151, Z:/CB Premium Course/Premium Template/scss/components/_carousel.scss */
+  .custom-carousel .indicators-container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 164, Z:/CB Premium Course/Premium Template/scss/components/_carousel.scss */
+  .custom-carousel .indicators-container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 176, Z:/CB Premium Course/Premium Template/scss/components/_carousel.scss */
+  .custom-carousel .indicators-container {
+    width: 1170px;
+  }
+}
+
+/*** Styles related to social media icons
+* Specific styles for social items on header or footer please
+* use header o footer file
+***/
+/* line 7, Z:/CB Premium Course/Premium Template/scss/components/_social-icons.scss */
+.social-icons {
+  display: block;
+}
+
+/* line 13, Z:/CB Premium Course/Premium Template/scss/components/_social-icons.scss */
+.social-items {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+/* line 32, Z:/CB Premium Course/Premium Template/scss/components/_social-icons.scss */
+.social-items li {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+/* line 37, Z:/CB Premium Course/Premium Template/scss/components/_social-icons.scss */
+.social-items li:first-child {
+  padding-left: 0px;
+}
+
+/* line 41, Z:/CB Premium Course/Premium Template/scss/components/_social-icons.scss */
+.social-items li:last-child {
+  padding-right: 0px;
+}
+
+/* line 49, Z:/CB Premium Course/Premium Template/scss/components/_social-icons.scss */
+.custom-social {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  color: #aaaaaa;
+  background-color: transparent;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 32px;
+  width: 32px;
+  border-radius: 0%;
+  border: none;
+  font-size: 24px;
+}
+
+/* line 18, Z:/CB Premium Course/Premium Template/scss/abstracts/_mixins.scss */
+.custom-social:hover, .custom-social:active, .custom-social:focus {
+  text-decoration: none;
+  color: #367c2b;
+}
+
+/* line 18, Z:/CB Premium Course/Premium Template/scss/abstracts/_mixins.scss */
+.facebook-icon:hover, .facebook-icon:active, .facebook-icon:focus {
+  color: #fff;
+  background: #3d5b9b;
+  border: 1px solid #3d5b9b;
+}
+
+/* line 18, Z:/CB Premium Course/Premium Template/scss/abstracts/_mixins.scss */
+.twitter-icon:hover, .twitter-icon:active, .twitter-icon:focus {
+  color: #fff;
+  background: #61a9db;
+  border: 1px solid #61a9db;
+}
+
+/* line 18, Z:/CB Premium Course/Premium Template/scss/abstracts/_mixins.scss */
+.linkedin-icon:hover, .linkedin-icon:active, .linkedin-icon:focus {
+  color: #fff;
+  background: #0e76b5;
+  border: 1px solid #0e76b5;
+}
+
+/* line 18, Z:/CB Premium Course/Premium Template/scss/abstracts/_mixins.scss */
+.youtube-icon:hover, .youtube-icon:active, .youtube-icon:focus {
+  color: #fff;
+  background: #e52e2a;
+  border: 1px solid #e52e2a;
+}
+
+/* line 18, Z:/CB Premium Course/Premium Template/scss/abstracts/_mixins.scss */
+.instagram-icon:hover, .instagram-icon:active, .instagram-icon:focus {
+  color: #fff;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+  border: 1px solid #fd5949;
+}
+
+/* line 18, Z:/CB Premium Course/Premium Template/scss/abstracts/_mixins.scss */
+.pinterest-icon:hover, .pinterest-icon:active, .pinterest-icon:focus {
+  color: #fff;
+  background: #cb2027;
+  border: 1px solid #cb2027;
+}
+
+/* line 18, Z:/CB Premium Course/Premium Template/scss/abstracts/_mixins.scss */
+.rss-icon:hover, .rss-icon:active, .rss-icon:focus {
+  color: #fff;
+  background: linear-gradient(135deg, #ff4d03 20%, #ffb67c 40%, #ff4d03 100%);
+  border: 1px solid #ff4d03;
+}
+
+/* line 18, Z:/CB Premium Course/Premium Template/scss/abstracts/_mixins.scss */
+.glassdoor-icon:hover, .glassdoor-icon:active, .glassdoor-icon:focus {
+  color: #fff;
+  background: #7cb229;
+  border: 1px solid #7cb229;
+}
+
+/* line 6, Z:/CB Premium Course/Premium Template/scss/components/_search-box.scss */
+.search-mobile, .search-desktop-home, .search-desktop, #search-widget {
+  background-color: #367c2b;
+}
+
+/* line 9, Z:/CB Premium Course/Premium Template/scss/components/_search-box.scss */
+.search-mobile h2, .search-desktop-home h2, .search-desktop h2, #search-widget h2 {
+  font-size: 48px;
+  color: #fff;
+  text-align: center;
+  margin-top: 0px;
+}
+
+/* line 17, Z:/CB Premium Course/Premium Template/scss/components/_search-box.scss */
+.search-mobile .search-box, .search-desktop-home .search-box, .search-desktop .search-box, #search-widget .search-box {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* line 29, Z:/CB Premium Course/Premium Template/scss/components/_search-box.scss */
+.search-mobile #search-bar, .search-desktop-home #search-bar, .search-desktop #search-bar, #search-widget #search-bar {
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+/* line 34, Z:/CB Premium Course/Premium Template/scss/components/_search-box.scss */
+.search-mobile #search-bar .search-bar-element, .search-desktop-home #search-bar .search-bar-element, .search-desktop #search-bar .search-bar-element, #search-widget #search-bar .search-bar-element {
+  padding-bottom: 15px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+/* line 39, Z:/CB Premium Course/Premium Template/scss/components/_search-box.scss */
+.search-mobile #search-bar .search-bar-element input, .search-desktop-home #search-bar .search-bar-element input, .search-desktop #search-bar .search-bar-element input, #search-widget #search-bar .search-bar-element input {
+  font-size: 14px;
+  color: #000;
+  height: 40px;
+  border: none;
+  border-radius: 0px;
+  text-align: center;
+}
+
+/* line 48, Z:/CB Premium Course/Premium Template/scss/components/_search-box.scss */
+.search-mobile #search-bar .search-bar-element input::-ms-clear, .search-desktop-home #search-bar .search-bar-element input::-ms-clear, .search-desktop #search-bar .search-bar-element input::-ms-clear, #search-widget #search-bar .search-bar-element input::-ms-clear {
+  display: none;
+}
+
+/* line 108, Z:/CB Premium Course/Premium Template/scss/abstracts/_mixins.scss */
+.search-mobile #search-bar .search-bar-element input::-webkit-input-placeholder, .search-desktop-home #search-bar .search-bar-element input::-webkit-input-placeholder, .search-desktop #search-bar .search-bar-element input::-webkit-input-placeholder, #search-widget #search-bar .search-bar-element input::-webkit-input-placeholder {
+  color: #000;
+}
+
+/* line 109, Z:/CB Premium Course/Premium Template/scss/abstracts/_mixins.scss */
+.search-mobile #search-bar .search-bar-element input:-moz-placeholder, .search-desktop-home #search-bar .search-bar-element input:-moz-placeholder, .search-desktop #search-bar .search-bar-element input:-moz-placeholder, #search-widget #search-bar .search-bar-element input:-moz-placeholder {
+  color: #000;
+}
+
+/* line 110, Z:/CB Premium Course/Premium Template/scss/abstracts/_mixins.scss */
+.search-mobile #search-bar .search-bar-element input::-moz-placeholder, .search-desktop-home #search-bar .search-bar-element input::-moz-placeholder, .search-desktop #search-bar .search-bar-element input::-moz-placeholder, #search-widget #search-bar .search-bar-element input::-moz-placeholder {
+  color: #000;
+}
+
+/* line 111, Z:/CB Premium Course/Premium Template/scss/abstracts/_mixins.scss */
+.search-mobile #search-bar .search-bar-element input:-ms-input-placeholder, .search-desktop-home #search-bar .search-bar-element input:-ms-input-placeholder, .search-desktop #search-bar .search-bar-element input:-ms-input-placeholder, #search-widget #search-bar .search-bar-element input:-ms-input-placeholder {
+  color: #000;
+}
+
+/* line 62, Z:/CB Premium Course/Premium Template/scss/components/_search-box.scss */
+.search-mobile #search-bar .search-bar-element.search-widget-container .search-btn, .search-desktop-home #search-bar .search-bar-element.search-widget-container .search-btn, .search-desktop #search-bar .search-bar-element.search-widget-container .search-btn, #search-widget #search-bar .search-bar-element.search-widget-container .search-btn {
+  display: block;
+  text-transform: none;
+  font-size: 0px;
+  padding: 4.5px 15px;
+}
+
+/* line 68, Z:/CB Premium Course/Premium Template/scss/components/_search-box.scss */
+.search-mobile #search-bar .search-bar-element.search-widget-container .search-btn:after, .search-desktop-home #search-bar .search-bar-element.search-widget-container .search-btn:after, .search-desktop #search-bar .search-bar-element.search-widget-container .search-btn:after, #search-widget #search-bar .search-bar-element.search-widget-container .search-btn:after {
+  font-family: FontAwesome;
+  content: "\f002";
+  font-size: 24px;
+}
+
+/* line 86, Z:/CB Premium Course/Premium Template/scss/components/_search-box.scss */
+.search-mobile .link-center, .search-desktop-home .link-center, .search-desktop .link-center, #search-widget .link-center {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin: 0px;
+}
+
+/* line 92, Z:/CB Premium Course/Premium Template/scss/components/_search-box.scss */
+.search-mobile .link-center .view-all-jobs, .search-desktop-home .link-center .view-all-jobs, .search-desktop .link-center .view-all-jobs, #search-widget .link-center .view-all-jobs {
+  color: #fff;
+  font-weight: normal;
+}
+
+/* line 107, Z:/CB Premium Course/Premium Template/scss/components/_search-box.scss */
+.search-desktop-home, .search-desktop {
+  background-color: transparent;
+}
+
+/* line 120, Z:/CB Premium Course/Premium Template/scss/components/_search-box.scss */
+#search-widget {
+  position: relative;
+  top: auto;
+  bottom: auto;
+  left: auto;
+  right: auto;
+  background-color: #fdda01;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  /* line 153, Z:/CB Premium Course/Premium Template/scss/components/_search-box.scss */
+  .search-mobile, .search-desktop-home, .search-desktop, #search-widget {
+    float: none;
+    background-size: cover;
+    padding: 0px;
+  }
+  /* line 160, Z:/CB Premium Course/Premium Template/scss/components/_search-box.scss */
+  .search-desktop-home, .search-desktop, #search-widget {
+    position: static;
+    background-color: #367c2b;
+    padding: 20px 0px;
+  }
+  /* line 165, Z:/CB Premium Course/Premium Template/scss/components/_search-box.scss */
+  .search-desktop-home h2, .search-desktop h2, #search-widget h2 {
+    color: #fff;
+    text-align: center;
+    margin: 0px;
+    padding-bottom: 10px;
+    font-size: 48px;
+  }
+  /* line 173, Z:/CB Premium Course/Premium Template/scss/components/_search-box.scss */
+  .search-desktop-home .link-container, .search-desktop .link-container, #search-widget .link-container {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  /* line 177, Z:/CB Premium Course/Premium Template/scss/components/_search-box.scss */
+  .search-desktop-home .link-container a, .search-desktop .link-container a, #search-widget .link-container a {
+    color: #fff;
+    font-size: 18px;
+  }
+  /* line 184, Z:/CB Premium Course/Premium Template/scss/components/_search-box.scss */
+  .search-desktop-home .search-box, .search-desktop .search-box, #search-widget .search-box {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  /* line 189, Z:/CB Premium Course/Premium Template/scss/components/_search-box.scss */
+  .search-desktop-home .search-box .search-box-content, .search-desktop .search-box .search-box-content, #search-widget .search-box .search-box-content {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  /* line 209, Z:/CB Premium Course/Premium Template/scss/components/_search-box.scss */
+  .search-desktop-home #search-bar, .search-desktop #search-bar, #search-widget #search-bar {
+    max-width: none;
+    display: table;
+  }
+  /* line 220, Z:/CB Premium Course/Premium Template/scss/components/_search-box.scss */
+  .search-desktop-home #search-bar .search-bar-element, .search-desktop #search-bar .search-bar-element, #search-widget #search-bar .search-bar-element {
+    display: table-cell;
+    vertical-align: bottom;
+    width: 50%;
+    padding-right: 15px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+  }
+  /* line 239, Z:/CB Premium Course/Premium Template/scss/components/_search-box.scss */
+  .search-desktop-home #search-bar .search-bar-element input, .search-desktop #search-bar .search-bar-element input, #search-widget #search-bar .search-bar-element input {
+    text-align: left;
+  }
+  /* line 246, Z:/CB Premium Course/Premium Template/scss/components/_search-box.scss */
+  .search-desktop-home #search-bar .search-bar-element label, .search-desktop #search-bar .search-bar-element label, #search-widget #search-bar .search-bar-element label {
+    color: #fff;
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+  /* line 253, Z:/CB Premium Course/Premium Template/scss/components/_search-box.scss */
+  .search-desktop-home #search-bar .search-bar-element.search-widget-container, .search-desktop #search-bar .search-bar-element.search-widget-container, #search-widget #search-bar .search-bar-element.search-widget-container {
+    padding-bottom: 0px;
+    padding-right: 0px;
+  }
+  /* line 264, Z:/CB Premium Course/Premium Template/scss/components/_search-box.scss */
+  .search-desktop-home #search-bar .search-bar-element.search-widget-container .search-btn, .search-desktop #search-bar .search-bar-element.search-widget-container .search-btn, #search-widget #search-bar .search-bar-element.search-widget-container .search-btn {
+    width: 50px;
+  }
+  /* line 285, Z:/CB Premium Course/Premium Template/scss/components/_search-box.scss */
+  .search-desktop-home .link-center, .search-desktop .link-center, #search-widget .link-center {
+    padding-top: 20px;
+  }
+  /* line 298, Z:/CB Premium Course/Premium Template/scss/components/_search-box.scss */
+  .search-desktop, #search-widget {
+    position: relative;
+    top: auto;
+    bottom: auto;
+    left: auto;
+    right: auto;
+    background-color: #fdda01;
+  }
+  /* line 307, Z:/CB Premium Course/Premium Template/scss/components/_search-box.scss */
+  .search-desktop h1, #search-widget h1 {
+    color: #fff;
+    text-align: left;
+  }
+  /* line 315, Z:/CB Premium Course/Premium Template/scss/components/_search-box.scss */
+  .search-desktop .search-box .search-box-content, #search-widget .search-box .search-box-content {
+    background-color: transparent;
+  }
+  /* line 362, Z:/CB Premium Course/Premium Template/scss/components/_search-box.scss */
+  .search-desktop #search-bar .search-bar-element label, #search-widget #search-bar .search-bar-element label {
+    color: #fff;
+  }
+  /* line 377, Z:/CB Premium Course/Premium Template/scss/components/_search-box.scss */
+  .search-desktop #search-bar .search-bar-element.search-widget-container .search-btn, #search-widget #search-bar .search-bar-element.search-widget-container .search-btn {
+    background-color: #b3b3b3;
+  }
+  /* line 18, Z:/CB Premium Course/Premium Template/scss/abstracts/_mixins.scss */
+  .search-desktop #search-bar .search-bar-element.search-widget-container .search-btn:hover, .search-desktop #search-bar .search-bar-element.search-widget-container .search-btn:active, .search-desktop #search-bar .search-bar-element.search-widget-container .search-btn:focus, #search-widget #search-bar .search-bar-element.search-widget-container .search-btn:hover, #search-widget #search-bar .search-bar-element.search-widget-container .search-btn:active, #search-widget #search-bar .search-bar-element.search-widget-container .search-btn:focus {
+    background-color: #777777;
+  }
+  /* line 396, Z:/CB Premium Course/Premium Template/scss/components/_search-box.scss */
+  .search-desktop .link-center .view-all-jobs, #search-widget .link-center .view-all-jobs {
+    color: #fff;
+  }
+  /* line 406, Z:/CB Premium Course/Premium Template/scss/components/_search-box.scss */
+  #search-widget {
+    padding: 20px 15px 30px 15px;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 416, Z:/CB Premium Course/Premium Template/scss/components/_search-box.scss */
+  .fix-affix {
+    width: 100%;
+  }
+  /* line 422, Z:/CB Premium Course/Premium Template/scss/components/_search-box.scss */
+  .search-desktop-home.affix-top, .affix-top.search-desktop, #search-widget.affix-top {
+    position: static;
+  }
+  /* line 426, Z:/CB Premium Course/Premium Template/scss/components/_search-box.scss */
+  .search-desktop-home.affix, .affix.search-desktop, #search-widget.affix {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    z-index: 100;
+  }
+  /* line 434, Z:/CB Premium Course/Premium Template/scss/components/_search-box.scss */
+  .search-desktop-home.affix + .fix-affix, .affix.search-desktop + .fix-affix, #search-widget.affix + .fix-affix {
+    padding-top: 217px;
+  }
+  /* line 441, Z:/CB Premium Course/Premium Template/scss/components/_search-box.scss */
+  .search-desktop-home h2, .search-desktop h2, #search-widget h2 {
+    text-align: left;
+  }
+  /* line 445, Z:/CB Premium Course/Premium Template/scss/components/_search-box.scss */
+  .search-desktop-home .link-container, .search-desktop .link-container, #search-widget .link-container {
+    text-align: left;
+    padding-bottom: 0px;
+  }
+  /* line 450, Z:/CB Premium Course/Premium Template/scss/components/_search-box.scss */
+  .search-desktop-home .search-box .search-box-content, .search-desktop .search-box .search-box-content, #search-widget .search-box .search-box-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  /* line 457, Z:/CB Premium Course/Premium Template/scss/components/_search-box.scss */
+  .search-desktop-home .search-box .search-box-content .flex-container, .search-desktop .search-box .search-box-content .flex-container, #search-widget .search-box .search-box-content .flex-container {
+    width: 40%;
+    padding-right: 5px;
+  }
+  /* line 462, Z:/CB Premium Course/Premium Template/scss/components/_search-box.scss */
+  .search-desktop-home .search-box .search-box-content #search-bar, .search-desktop .search-box .search-box-content #search-bar, #search-widget .search-box .search-box-content #search-bar {
+    width: 60%;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 504, Z:/CB Premium Course/Premium Template/scss/components/_search-box.scss */
+  .search-desktop-home .search-box .search-box-content .flex-container, .search-desktop .search-box .search-box-content .flex-container, #search-widget .search-box .search-box-content .flex-container {
+    width: 30%;
+  }
+  /* line 508, Z:/CB Premium Course/Premium Template/scss/components/_search-box.scss */
+  .search-desktop-home .search-box .search-box-content #search-bar, .search-desktop .search-box .search-box-content #search-bar, #search-widget .search-box .search-box-content #search-bar {
+    width: 70%;
+    padding-bottom: 10px;
+  }
+}
+
+/* line 5, Z:/CB Premium Course/Premium Template/scss/pages/_home.scss */
+.landing-banner {
+  background: url("../img/home-banner-mobile.png") no-repeat center center;
+  background-size: cover;
+  height: 450px;
+  position: relative;
+}
+
+/* line 11, Z:/CB Premium Course/Premium Template/scss/pages/_home.scss */
+.landing-banner .home-title {
+  position: absolute;
+  bottom: 50px;
+  top: auto;
+  left: 0px;
+  right: 0px;
+}
+
+/* line 18, Z:/CB Premium Course/Premium Template/scss/pages/_home.scss */
+.landing-banner .home-title h1 {
+  text-align: center;
+  color: #fff;
+  text-transform: none;
+  font-size: 42px;
+  text-shadow: 0px 0px 10px black;
+}
+
+/* line 32, Z:/CB Premium Course/Premium Template/scss/pages/_home.scss */
+.home-working {
+  background-color: #fff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/* line 37, Z:/CB Premium Course/Premium Template/scss/pages/_home.scss */
+.home-working p, .home-working #cb-legal-content-block #cookiesPolicy p, #cb-legal-content-block #cookiesPolicy .home-working p, .home-working #cb-legal-content-block #cookiesList p, #cb-legal-content-block #cookiesList .home-working p {
+  color: #367c2b;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* line 43, Z:/CB Premium Course/Premium Template/scss/pages/_home.scss */
+.home-working p.main-title, .home-working #cb-legal-content-block #cookiesPolicy p.main-title, #cb-legal-content-block #cookiesPolicy .home-working p.main-title, .home-working #cb-legal-content-block #cookiesList p.main-title, #cb-legal-content-block #cookiesList .home-working p.main-title {
+  padding-bottom: 60px;
+}
+
+/* line 48, Z:/CB Premium Course/Premium Template/scss/pages/_home.scss */
+.home-working .image-container {
+  position: relative;
+  max-width: 370px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+/* line 55, Z:/CB Premium Course/Premium Template/scss/pages/_home.scss */
+.home-working .image-container:hover .overlay, .home-working .image-container:active .overlay, .home-working .image-container:focus .overlay {
+  z-index: 1;
+  opacity: 1;
+}
+
+/* line 60, Z:/CB Premium Course/Premium Template/scss/pages/_home.scss */
+.home-working .image-container:hover .image-title, .home-working .image-container:active .image-title, .home-working .image-container:focus .image-title {
+  opacity: 0;
+}
+
+/* line 65, Z:/CB Premium Course/Premium Template/scss/pages/_home.scss */
+.home-working .image-container .image-title {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 20px;
+  top: auto;
+  padding: 0px 15px;
+  opacity: 1;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+/* line 77, Z:/CB Premium Course/Premium Template/scss/pages/_home.scss */
+.home-working .image-container .image-title .title {
+  color: #fff;
+  font-family: "JDSans", Times, "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  text-shadow: 0px 0px 10px black;
+}
+
+/* line 86, Z:/CB Premium Course/Premium Template/scss/pages/_home.scss */
+.home-working .image-container .overlay {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.8);
+  opacity: 0;
+  z-index: -1;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+/* line 102, Z:/CB Premium Course/Premium Template/scss/pages/_home.scss */
+.home-working .image-container .overlay .sub-title {
+  color: #fff;
+  font-family: "JDSans", Times, "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  text-shadow: 0px 0px 10px black;
+  padding-bottom: 15px;
+}
+
+/* line 112, Z:/CB Premium Course/Premium Template/scss/pages/_home.scss */
+.home-working .image-container .overlay .text-content p, .home-working .image-container .overlay .text-content #cb-legal-content-block #cookiesPolicy p, #cb-legal-content-block #cookiesPolicy .home-working .image-container .overlay .text-content p, .home-working .image-container .overlay .text-content #cb-legal-content-block #cookiesList p, #cb-legal-content-block #cookiesList .home-working .image-container .overlay .text-content p {
+  color: #fff;
+  font-size: 16px;
+}
+
+/* line 118, Z:/CB Premium Course/Premium Template/scss/pages/_home.scss */
+.home-working .image-container .overlay .link-container {
+  text-align: center;
+  padding-top: 10px;
+}
+
+/* line 122, Z:/CB Premium Course/Premium Template/scss/pages/_home.scss */
+.home-working .image-container .overlay .link-container a {
+  color: #fdda01;
+  font-family: "JDSans", Times, "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+/* line 127, Z:/CB Premium Course/Premium Template/scss/pages/_home.scss */
+.home-working .image-container .overlay .link-container a:after {
+  content: " >";
+}
+
+@media (min-width: 768px) {
+  /* line 140, Z:/CB Premium Course/Premium Template/scss/pages/_home.scss */
+  .landing-banner {
+    background: url("../img/home-banner.png") no-repeat;
+    background-position: 0% 50%;
+    background-size: cover;
+    height: 600px;
+  }
+  /* line 146, Z:/CB Premium Course/Premium Template/scss/pages/_home.scss */
+  .landing-banner .home-title {
+    bottom: 80px;
+  }
+  /* line 149, Z:/CB Premium Course/Premium Template/scss/pages/_home.scss */
+  .landing-banner .home-title h1 {
+    font-size: 48px;
+  }
+  /* line 158, Z:/CB Premium Course/Premium Template/scss/pages/_home.scss */
+  .home-working .image-container .image-title .title {
+    text-align: left;
+  }
+  /* line 163, Z:/CB Premium Course/Premium Template/scss/pages/_home.scss */
+  .home-working .image-container .overlay {
+    padding-top: 60px;
+  }
+  /* line 166, Z:/CB Premium Course/Premium Template/scss/pages/_home.scss */
+  .home-working .image-container .overlay .sub-title {
+    text-align: left;
+  }
+  /* line 170, Z:/CB Premium Course/Premium Template/scss/pages/_home.scss */
+  .home-working .image-container .overlay .text-content {
+    min-height: 160px;
+  }
+  /* line 173, Z:/CB Premium Course/Premium Template/scss/pages/_home.scss */
+  .home-working .image-container .overlay .text-content p, .home-working .image-container .overlay .text-content #cb-legal-content-block #cookiesPolicy p, #cb-legal-content-block #cookiesPolicy .home-working .image-container .overlay .text-content p, .home-working .image-container .overlay .text-content #cb-legal-content-block #cookiesList p, #cb-legal-content-block #cookiesList .home-working .image-container .overlay .text-content p {
+    text-align: left;
+  }
+  /* line 178, Z:/CB Premium Course/Premium Template/scss/pages/_home.scss */
+  .home-working .image-container .overlay .link-container {
+    text-align: left;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 188, Z:/CB Premium Course/Premium Template/scss/pages/_home.scss */
+  .home-working {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  /* line 192, Z:/CB Premium Course/Premium Template/scss/pages/_home.scss */
+  .home-working p, .home-working #cb-legal-content-block #cookiesPolicy p, #cb-legal-content-block #cookiesPolicy .home-working p, .home-working #cb-legal-content-block #cookiesList p, #cb-legal-content-block #cookiesList .home-working p {
+    text-align: left;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 202, Z:/CB Premium Course/Premium Template/scss/pages/_home.scss */
+  .home-working .image-container {
+    min-width: none;
+    margin-bottom: 20px;
+  }
+  /* line 206, Z:/CB Premium Course/Premium Template/scss/pages/_home.scss */
+  .home-working .image-container .overlay {
+    padding: 60px 20px 30px;
+  }
+  /* line 209, Z:/CB Premium Course/Premium Template/scss/pages/_home.scss */
+  .home-working .image-container .overlay .text-content {
+    min-height: 140px;
+  }
+}
+
+/**/
+/**/
+/* line 13, Z:/CB Premium Course/Premium Template/scss/pages/_internal.scss */
+.internals-section, .legal-page-background {
+  position: relative;
+  background-color: #fff;
+  padding: 30px 0px;
+  padding-bottom: 50px;
+}
+
+/* line 22, Z:/CB Premium Course/Premium Template/scss/pages/_internal.scss */
+.internals-buttons, #join-entire-page-content #join-button-mobile, #join-entire-page-content #join-button, #join-entire-page-content #jfi-apply, #jfi-modal-dialog #join-button-mobile, #jfi-modal-dialog #join-button, #jfi-modal-dialog #jfi-apply, .jfi-success-container #join-button-mobile, .jfi-success-container #join-button, .jfi-success-container #jfi-apply, #job-results .primary-button.search-jobs-button-404, #edit-preference-view #edit-preference-form #edit-preference-update-btn, #edit-preference-view #edit-preference-form #edit-preference-unsubscribe-link, #subscription-form #subscription-save-btn, .jrp-pagination-row .mobile-pagination .next-mobile-page,
+.jrp-pagination-row .mobile-pagination .previous-mobile-page, #jdp-apply-button-top, #jdp-apply-button-bottom, #jdp-apply-button-top-mobile, #jdp-apply-button-bottom-mobile {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  background-color: #fdda01;
+  padding: 10px 15px;
+  color: #000;
+  text-decoration: none;
+  text-align: center;
+  border: none;
+  border-radius: 0px;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+  line-height: 1.3;
+  outline: none;
+  font-size: 16px;
+  font-family: "JDSans", Times, "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin: 0 auto;
+  margin-top: 20px;
+  max-width: 250px;
+  display: block;
+  white-space: normal;
+  line-height: 1.3;
+}
+
+/* line 18, Z:/CB Premium Course/Premium Template/scss/abstracts/_mixins.scss */
+.internals-buttons:hover, #join-entire-page-content #join-button-mobile:hover, #join-entire-page-content #join-button:hover, #join-entire-page-content #jfi-apply:hover, #jfi-modal-dialog #join-button-mobile:hover, #jfi-modal-dialog #join-button:hover, #jfi-modal-dialog #jfi-apply:hover, .jfi-success-container #join-button-mobile:hover, .jfi-success-container #join-button:hover, .jfi-success-container #jfi-apply:hover, #job-results .primary-button.search-jobs-button-404:hover, #edit-preference-view #edit-preference-form #edit-preference-update-btn:hover, #edit-preference-view #edit-preference-form #edit-preference-unsubscribe-link:hover, #subscription-form #subscription-save-btn:hover, .jrp-pagination-row .mobile-pagination .next-mobile-page:hover,
+.jrp-pagination-row .mobile-pagination .previous-mobile-page:hover, #jdp-apply-button-top:hover, #jdp-apply-button-bottom:hover, #jdp-apply-button-top-mobile:hover, #jdp-apply-button-bottom-mobile:hover, .internals-buttons:active, #join-entire-page-content #join-button-mobile:active, #join-entire-page-content #join-button:active, #join-entire-page-content #jfi-apply:active, #jfi-modal-dialog #join-button-mobile:active, #jfi-modal-dialog #join-button:active, #jfi-modal-dialog #jfi-apply:active, .jfi-success-container #join-button-mobile:active, .jfi-success-container #join-button:active, .jfi-success-container #jfi-apply:active, #job-results .primary-button.search-jobs-button-404:active, #edit-preference-view #edit-preference-form #edit-preference-update-btn:active, #edit-preference-view #edit-preference-form #edit-preference-unsubscribe-link:active, #subscription-form #subscription-save-btn:active, .jrp-pagination-row .mobile-pagination .next-mobile-page:active,
+.jrp-pagination-row .mobile-pagination .previous-mobile-page:active, #jdp-apply-button-top:active, #jdp-apply-button-bottom:active, #jdp-apply-button-top-mobile:active, #jdp-apply-button-bottom-mobile:active, .internals-buttons:focus, #join-entire-page-content #join-button-mobile:focus, #join-entire-page-content #join-button:focus, #join-entire-page-content #jfi-apply:focus, #jfi-modal-dialog #join-button-mobile:focus, #jfi-modal-dialog #join-button:focus, #jfi-modal-dialog #jfi-apply:focus, .jfi-success-container #join-button-mobile:focus, .jfi-success-container #join-button:focus, .jfi-success-container #jfi-apply:focus, #job-results .primary-button.search-jobs-button-404:focus, #edit-preference-view #edit-preference-form #edit-preference-update-btn:focus, #edit-preference-view #edit-preference-form #edit-preference-unsubscribe-link:focus, #subscription-form #subscription-save-btn:focus, .jrp-pagination-row .mobile-pagination .next-mobile-page:focus,
+.jrp-pagination-row .mobile-pagination .previous-mobile-page:focus, #jdp-apply-button-top:focus, #jdp-apply-button-bottom:focus, #jdp-apply-button-top-mobile:focus, #jdp-apply-button-bottom-mobile:focus {
+  background-color: #d7b901;
+  text-decoration: none;
+  color: #000;
+  border: none;
+}
+
+/* line 41, Z:/CB Premium Course/Premium Template/scss/pages/_internal.scss */
+.internals-titles, .error-card h1, #join-entire-page-content .join-form-header, #jfi-modal-dialog .join-form-header, .jfi-success-container .join-form-header, #cb-legal-content-block h1, #cb-legal-content-block #cookiesPolicy h2, #cb-legal-content-block #cookiesList h2, #cb-legal-content-block #cookiesPolicy h3, #cb-legal-content-block #cookiesList h3, #browse-by-container #browse-by-header, #browse-by-container #browse-by-header p, #after-apply-thank-you-header, #edit-preference-view #edit-preference-title, #subscription-title, .search-results-title, .jdp-title-inner-container .jdp-title-block-position .jdp-job-title {
+  font-size: 24px !important;
+  color: #367c2b !important;
+  margin-top: 0px !important;
+  padding-bottom: 15px !important;
+  line-height: 1.3;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/**/
+/**/
+/* line 64, Z:/CB Premium Course/Premium Template/scss/pages/_internal.scss */
+.search-bar-element.search-field-container.search-location-field, .formly-field-googleAutocomplete {
+  position: relative;
+}
+
+/* line 68, Z:/CB Premium Course/Premium Template/scss/pages/_internal.scss */
+.search-bar-element.search-field-container.search-location-field #suggestions, .search-bar-element.search-field-container.search-location-field #suggestions-join-form, .formly-field-googleAutocomplete #suggestions, .formly-field-googleAutocomplete #suggestions-join-form {
+  position: absolute;
+  left: 0px !important;
+  right: 0px !important;
+  width: 100% !important;
+  z-index: 100 !important;
+  list-style: none !important;
+}
+
+/* line 77, Z:/CB Premium Course/Premium Template/scss/pages/_internal.scss */
+.search-bar-element.search-field-container.search-location-field #suggestions .list-group-item, .search-bar-element.search-field-container.search-location-field #suggestions-join-form .list-group-item, .formly-field-googleAutocomplete #suggestions .list-group-item, .formly-field-googleAutocomplete #suggestions-join-form .list-group-item {
+  color: #333333;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+/* line 84, Z:/CB Premium Course/Premium Template/scss/pages/_internal.scss */
+.search-bar-element.search-field-container.search-location-field #suggestions .list-group-item:first-child, .search-bar-element.search-field-container.search-location-field #suggestions-join-form .list-group-item:first-child, .formly-field-googleAutocomplete #suggestions .list-group-item:first-child, .formly-field-googleAutocomplete #suggestions-join-form .list-group-item:first-child {
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+}
+
+/* line 89, Z:/CB Premium Course/Premium Template/scss/pages/_internal.scss */
+.search-bar-element.search-field-container.search-location-field #suggestions .list-group-item.active, .search-bar-element.search-field-container.search-location-field #suggestions .list-group-item.active:focus, .search-bar-element.search-field-container.search-location-field #suggestions .list-group-item.active:hover, .search-bar-element.search-field-container.search-location-field #suggestions-join-form .list-group-item.active, .search-bar-element.search-field-container.search-location-field #suggestions-join-form .list-group-item.active:focus, .search-bar-element.search-field-container.search-location-field #suggestions-join-form .list-group-item.active:hover, .formly-field-googleAutocomplete #suggestions .list-group-item.active, .formly-field-googleAutocomplete #suggestions .list-group-item.active:focus, .formly-field-googleAutocomplete #suggestions .list-group-item.active:hover, .formly-field-googleAutocomplete #suggestions-join-form .list-group-item.active, .formly-field-googleAutocomplete #suggestions-join-form .list-group-item.active:focus, .formly-field-googleAutocomplete #suggestions-join-form .list-group-item.active:hover {
+  color: #fff;
+  background-color: #367c2b;
+  border: 1px solid #367c2b;
+}
+
+/* line 100, Z:/CB Premium Course/Premium Template/scss/pages/_internal.scss */
+.search-bar-element.search-field-container.search-location-field #suggestions li.autocompletefooter, .search-bar-element.search-field-container.search-location-field #suggestions-join-form li.autocompletefooter, .formly-field-googleAutocomplete #suggestions li.autocompletefooter, .formly-field-googleAutocomplete #suggestions-join-form li.autocompletefooter {
+  height: 25px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-top: none;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+/* line 109, Z:/CB Premium Course/Premium Template/scss/pages/_internal.scss */
+.search-bar-element.search-field-container.search-location-field #suggestions li.autocompletefooter img, .search-bar-element.search-field-container.search-location-field #suggestions-join-form li.autocompletefooter img, .formly-field-googleAutocomplete #suggestions li.autocompletefooter img, .formly-field-googleAutocomplete #suggestions-join-form li.autocompletefooter img {
+  width: 120px;
+  margin-right: 20px;
+  margin-top: 5px;
+}
+
+/**/
+/**/
+/* line 133, Z:/CB Premium Course/Premium Template/scss/pages/_internal.scss */
+.error-card {
+  background-color: #eee;
+  text-align: center;
+  margin: 30px 0px;
+  padding: 30px;
+  -webkit-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* line 142, Z:/CB Premium Course/Premium Template/scss/pages/_internal.scss */
+.error-card i {
+  font-size: 60px;
+  color: #fdda01;
+}
+
+/* line 149, Z:/CB Premium Course/Premium Template/scss/pages/_internal.scss */
+.error-card h1 {
+  margin-top: 20px;
+  padding-bottom: 0px;
+}
+
+/* line 158, Z:/CB Premium Course/Premium Template/scss/pages/_internal.scss */
+.error-card h1, .error-card h2 {
+  color: #367c2b;
+}
+
+/**/
+/**/
+/* line 178, Z:/CB Premium Course/Premium Template/scss/pages/_internal.scss */
+#join-entire-page-content .row, #jfi-modal-dialog .row, .jfi-success-container .row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+/* line 185, Z:/CB Premium Course/Premium Template/scss/pages/_internal.scss */
+#join-entire-page-content .formly-field-select .form-group select, #jfi-modal-dialog .formly-field-select .form-group select, .jfi-success-container .formly-field-select .form-group select {
+  height: 34px;
+}
+
+/* line 190, Z:/CB Premium Course/Premium Template/scss/pages/_internal.scss */
+#join-entire-page-content #join-page-content-section, #jfi-modal-dialog #join-page-content-section, .jfi-success-container #join-page-content-section {
+  padding-bottom: 50px;
+}
+
+/* line 201, Z:/CB Premium Course/Premium Template/scss/pages/_internal.scss */
+#join-entire-page-content strong, #join-entire-page-content p, #join-entire-page-content #cb-legal-content-block #cookiesPolicy p, #cb-legal-content-block #cookiesPolicy #join-entire-page-content p, #join-entire-page-content #cb-legal-content-block #cookiesList p, #cb-legal-content-block #cookiesList #join-entire-page-content p, #join-entire-page-content li, #jfi-modal-dialog strong, #jfi-modal-dialog p, #jfi-modal-dialog #cb-legal-content-block #cookiesPolicy p, #cb-legal-content-block #cookiesPolicy #jfi-modal-dialog p, #jfi-modal-dialog #cb-legal-content-block #cookiesList p, #cb-legal-content-block #cookiesList #jfi-modal-dialog p, #jfi-modal-dialog li, .jfi-success-container strong, .jfi-success-container p, .jfi-success-container #cb-legal-content-block #cookiesPolicy p, #cb-legal-content-block #cookiesPolicy .jfi-success-container p, .jfi-success-container #cb-legal-content-block #cookiesList p, #cb-legal-content-block #cookiesList .jfi-success-container p, .jfi-success-container li {
+  color: #333333;
+}
+
+/* line 212, Z:/CB Premium Course/Premium Template/scss/pages/_internal.scss */
+#join-entire-page-content a, #jfi-modal-dialog a, .jfi-success-container a {
+  color: #367c2b;
+  font-size: 16px !important;
+  line-height: 1.3 !important;
+}
+
+/* line 218, Z:/CB Premium Course/Premium Template/scss/pages/_internal.scss */
+#join-entire-page-content a#desktop-upload-remove-file-btn, #jfi-modal-dialog a#desktop-upload-remove-file-btn, .jfi-success-container a#desktop-upload-remove-file-btn {
+  background-color: #fdda01;
+  color: #fff;
+  border: none;
+  border-radius: 0px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+/* line 18, Z:/CB Premium Course/Premium Template/scss/abstracts/_mixins.scss */
+#join-entire-page-content a#desktop-upload-remove-file-btn:hover, #join-entire-page-content a#desktop-upload-remove-file-btn:active, #join-entire-page-content a#desktop-upload-remove-file-btn:focus, #jfi-modal-dialog a#desktop-upload-remove-file-btn:hover, #jfi-modal-dialog a#desktop-upload-remove-file-btn:active, #jfi-modal-dialog a#desktop-upload-remove-file-btn:focus, .jfi-success-container a#desktop-upload-remove-file-btn:hover, .jfi-success-container a#desktop-upload-remove-file-btn:active, .jfi-success-container a#desktop-upload-remove-file-btn:focus {
+  background-color: #367c2b;
+  text-decoration: none;
+}
+
+/* line 18, Z:/CB Premium Course/Premium Template/scss/abstracts/_mixins.scss */
+#join-entire-page-content a:hover, #join-entire-page-content a:active, #join-entire-page-content a:focus, #jfi-modal-dialog a:hover, #jfi-modal-dialog a:active, #jfi-modal-dialog a:focus, .jfi-success-container a:hover, .jfi-success-container a:active, .jfi-success-container a:focus {
+  color: #367c2b;
+  text-decoration: underline;
+}
+
+/* line 240, Z:/CB Premium Course/Premium Template/scss/pages/_internal.scss */
+#join-entire-page-content .join-is-not-apply-mobile, #join-entire-page-content .join-is-not-apply, #jfi-modal-dialog .join-is-not-apply-mobile, #jfi-modal-dialog .join-is-not-apply, .jfi-success-container .join-is-not-apply-mobile, .jfi-success-container .join-is-not-apply {
+  margin-top: 15px;
+  font-size: 16px;
+  padding: 0px;
+}
+
+/* line 246, Z:/CB Premium Course/Premium Template/scss/pages/_internal.scss */
+#join-entire-page-content .join-is-not-apply, #jfi-modal-dialog .join-is-not-apply, .jfi-success-container .join-is-not-apply {
+  margin-top: 0px;
+  display: inline-block;
+  padding-right: 15px;
+}
+
+/* line 254, Z:/CB Premium Course/Premium Template/scss/pages/_internal.scss */
+#join-entire-page-content #join-button-mobile, #join-entire-page-content #join-button, #join-entire-page-content #jfi-apply, #jfi-modal-dialog #join-button-mobile, #jfi-modal-dialog #join-button, #jfi-modal-dialog #jfi-apply, .jfi-success-container #join-button-mobile, .jfi-success-container #join-button, .jfi-success-container #jfi-apply {
+  margin-top: 0px;
+  white-space: nowrap;
+}
+
+/* line 11, Z:/CB Premium Course/Premium Template/scss/abstracts/_mixins.scss */
+#join-entire-page-content .join-button-container span.btn.primary-button.text-weight-bold, #join-entire-page-content .join-button-container span.btn.primary-button.text-weight-bold:hover, #join-entire-page-content .join-button-container span.btn.primary-button.text-weight-bold:active, #join-entire-page-content .join-button-container span.btn.primary-button.text-weight-bold:focus, #join-entire-page-content #join-apply-block-mobile .text-right span.btn.primary-button.text-weight-bold, #join-entire-page-content #join-apply-block-mobile .text-right span.btn.primary-button.text-weight-bold:hover, #join-entire-page-content #join-apply-block-mobile .text-right span.btn.primary-button.text-weight-bold:active, #join-entire-page-content #join-apply-block-mobile .text-right span.btn.primary-button.text-weight-bold:focus, #jfi-modal-dialog .join-button-container span.btn.primary-button.text-weight-bold, #jfi-modal-dialog .join-button-container span.btn.primary-button.text-weight-bold:hover, #jfi-modal-dialog .join-button-container span.btn.primary-button.text-weight-bold:active, #jfi-modal-dialog .join-button-container span.btn.primary-button.text-weight-bold:focus, #jfi-modal-dialog #join-apply-block-mobile .text-right span.btn.primary-button.text-weight-bold, #jfi-modal-dialog #join-apply-block-mobile .text-right span.btn.primary-button.text-weight-bold:hover, #jfi-modal-dialog #join-apply-block-mobile .text-right span.btn.primary-button.text-weight-bold:active, #jfi-modal-dialog #join-apply-block-mobile .text-right span.btn.primary-button.text-weight-bold:focus, .jfi-success-container .join-button-container span.btn.primary-button.text-weight-bold, .jfi-success-container .join-button-container span.btn.primary-button.text-weight-bold:hover, .jfi-success-container .join-button-container span.btn.primary-button.text-weight-bold:active, .jfi-success-container .join-button-container span.btn.primary-button.text-weight-bold:focus, .jfi-success-container #join-apply-block-mobile .text-right span.btn.primary-button.text-weight-bold, .jfi-success-container #join-apply-block-mobile .text-right span.btn.primary-button.text-weight-bold:hover, .jfi-success-container #join-apply-block-mobile .text-right span.btn.primary-button.text-weight-bold:active, .jfi-success-container #join-apply-block-mobile .text-right span.btn.primary-button.text-weight-bold:focus {
+  background: transparent;
+  display: block;
+  white-space: normal;
+  border: none;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  margin-top: 15px;
+  pointer-events: none;
+  cursor: default;
+}
+
+/* line 280, Z:/CB Premium Course/Premium Template/scss/pages/_internal.scss */
+#join-entire-page-content .join-button-container span.btn.primary-button.text-weight-bold .fa-spinner.fa-spin, #join-entire-page-content #join-apply-block-mobile .text-right span.btn.primary-button.text-weight-bold .fa-spinner.fa-spin, #jfi-modal-dialog .join-button-container span.btn.primary-button.text-weight-bold .fa-spinner.fa-spin, #jfi-modal-dialog #join-apply-block-mobile .text-right span.btn.primary-button.text-weight-bold .fa-spinner.fa-spin, .jfi-success-container .join-button-container span.btn.primary-button.text-weight-bold .fa-spinner.fa-spin, .jfi-success-container #join-apply-block-mobile .text-right span.btn.primary-button.text-weight-bold .fa-spinner.fa-spin {
+  color: #367c2b;
+  margin: 0 auto;
+}
+
+/**/
+/**/
+/* line 303, Z:/CB Premium Course/Premium Template/scss/pages/_internal.scss */
+#cb-legal-content-block {
+  color: #333333;
+  padding: 0px;
+  margin: 0px;
+}
+
+/* line 315, Z:/CB Premium Course/Premium Template/scss/pages/_internal.scss */
+#cb-legal-content-block h2, #cb-legal-content-block p, #cb-legal-content-block #cookiesPolicy p, #cb-legal-content-block #cookiesList p, #cb-legal-content-block li, #cb-legal-content-block b {
+  color: #333333;
+}
+
+/* line 321, Z:/CB Premium Course/Premium Template/scss/pages/_internal.scss */
+#cb-legal-content-block a {
+  color: #367c2b;
+}
+
+/* line 18, Z:/CB Premium Course/Premium Template/scss/abstracts/_mixins.scss */
+#cb-legal-content-block a:hover, #cb-legal-content-block a:active, #cb-legal-content-block a:focus {
+  color: #367c2b;
+  text-decoration: underline;
+}
+
+/* line 334, Z:/CB Premium Course/Premium Template/scss/pages/_internal.scss */
+#cb-legal-content-block #cookiesPolicy table, #cb-legal-content-block #cookiesList table {
+  width: 100%;
+}
+
+/* line 339, Z:/CB Premium Course/Premium Template/scss/pages/_internal.scss */
+#cb-legal-content-block #cookiesPolicy table.listCookies tr:first-child, #cb-legal-content-block #cookiesList table.listCookies tr:first-child {
+  background-color: #ccc;
+}
+
+/* line 345, Z:/CB Premium Course/Premium Template/scss/pages/_internal.scss */
+#cb-legal-content-block #cookiesPolicy table td, #cb-legal-content-block #cookiesList table td {
+  padding: 2px;
+  width: auto;
+}
+
+/* line 349, Z:/CB Premium Course/Premium Template/scss/pages/_internal.scss */
+#cb-legal-content-block #cookiesPolicy table td p, #cb-legal-content-block #cookiesList table td p {
+  font-size: 12px;
+}
+
+/* line 361, Z:/CB Premium Course/Premium Template/scss/pages/_internal.scss */
+#cb-legal-content-block #cookiesPolicy h3, #cb-legal-content-block #cookiesList h3 {
+  font-size: 20px !important;
+  font-weight: normal !important;
+}
+
+/* line 368, Z:/CB Premium Course/Premium Template/scss/pages/_internal.scss */
+#cb-legal-content-block #cookiesPolicy p, #cb-legal-content-block #cookiesList p {
+  font-size: 16px;
+  line-height: 1.3;
+}
+
+/* line 375, Z:/CB Premium Course/Premium Template/scss/pages/_internal.scss */
+#cb-legal-content-block #cookiesPolicy a, #cb-legal-content-block #cookiesList a {
+  color: #367c2b !important;
+}
+
+/* line 18, Z:/CB Premium Course/Premium Template/scss/abstracts/_mixins.scss */
+#cb-legal-content-block #cookiesPolicy a:hover, #cb-legal-content-block #cookiesPolicy a:active, #cb-legal-content-block #cookiesPolicy a:focus, #cb-legal-content-block #cookiesList a:hover, #cb-legal-content-block #cookiesList a:active, #cb-legal-content-block #cookiesList a:focus {
+  color: #367c2b !important;
+  text-decoration: underline;
+}
+
+/**/
+/**/
+/* line 402, Z:/CB Premium Course/Premium Template/scss/pages/_internal.scss */
+#browse-by-container .col-xs-12 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+/* line 409, Z:/CB Premium Course/Premium Template/scss/pages/_internal.scss */
+#browse-by-container #browse-by-header {
+  padding-bottom: 20px;
+}
+
+/* line 413, Z:/CB Premium Course/Premium Template/scss/pages/_internal.scss */
+#browse-by-container #browse-by-header p {
+  line-height: 1.3;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+/* line 423, Z:/CB Premium Course/Premium Template/scss/pages/_internal.scss */
+#browse-by-container .browse-by-country-tab {
+  color: #367c2b;
+  font-weight: bold;
+  background-color: #fff;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+/* line 18, Z:/CB Premium Course/Premium Template/scss/abstracts/_mixins.scss */
+#browse-by-container .browse-by-country-tab:hover, #browse-by-container .browse-by-country-tab:active, #browse-by-container .browse-by-country-tab:focus {
+  color: #367c2b;
+  font-weight: bold;
+  background-color: #fff;
+  padding-left: 0px;
+  padding-right: 0px;
+  text-decoration: underline;
+}
+
+/* line 445, Z:/CB Premium Course/Premium Template/scss/pages/_internal.scss */
+#browse-by-container .browse-by-element-list .browse-by-element a {
+  color: #367c2b;
+}
+
+/* line 18, Z:/CB Premium Course/Premium Template/scss/abstracts/_mixins.scss */
+#browse-by-container .browse-by-element-list .browse-by-element a:hover, #browse-by-container .browse-by-element-list .browse-by-element a:active, #browse-by-container .browse-by-element-list .browse-by-element a:focus {
+  color: #367c2b;
+  text-decoration: underline;
+}
+
+/**/
+/**/
+/* line 480, Z:/CB Premium Course/Premium Template/scss/pages/_internal.scss */
+#job-results #after-apply-recommended-header, #job-results #after-apply-recommended-subheader {
+  color: #333333;
+  text-align: center;
+}
+
+/* line 487, Z:/CB Premium Course/Premium Template/scss/pages/_internal.scss */
+#job-results #recommendation-table {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/**/
+/**/
+/* line 515, Z:/CB Premium Course/Premium Template/scss/pages/_internal.scss */
+#edit-preference-view .editPrefPageContainer {
+  width: 100%;
+}
+
+/* line 518, Z:/CB Premium Course/Premium Template/scss/pages/_internal.scss */
+#edit-preference-view .editPrefPageContainer > .content-card {
+  padding: 0px 15px;
+  margin: 0px;
+}
+
+/* line 524, Z:/CB Premium Course/Premium Template/scss/pages/_internal.scss */
+#edit-preference-view .col-xs-12 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+/* line 538, Z:/CB Premium Course/Premium Template/scss/pages/_internal.scss */
+#edit-preference-view #edit-preference-instructions h3 {
+  color: #333333;
+  text-align: center;
+  text-transform: none;
+}
+
+/* line 549, Z:/CB Premium Course/Premium Template/scss/pages/_internal.scss */
+#edit-preference-view #edit-preference-form .alert {
+  text-align: center;
+}
+
+/* line 555, Z:/CB Premium Course/Premium Template/scss/pages/_internal.scss */
+#edit-preference-view #edit-preference-form p {
+  color: #333333;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: none;
+}
+
+/* line 564, Z:/CB Premium Course/Premium Template/scss/pages/_internal.scss */
+#edit-preference-view #edit-preference-form input {
+  font-size: 16px;
+}
+
+/* line 570, Z:/CB Premium Course/Premium Template/scss/pages/_internal.scss */
+#edit-preference-view #edit-preference-form #edit-preference-update-btn {
+  margin-top: 5px;
+  margin-bottom: 15px;
+  height: auto;
+}
+
+/* line 579, Z:/CB Premium Course/Premium Template/scss/pages/_internal.scss */
+#edit-preference-view #edit-preference-form #edit-preference-unsubscribe-link {
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+/**/
+/**/
+/* line 617, Z:/CB Premium Course/Premium Template/scss/pages/_internal.scss */
+#subscription-form #subscription-message-section p {
+  font-weight: bold;
+  text-align: center;
+  margin: 0px;
+}
+
+/* line 628, Z:/CB Premium Course/Premium Template/scss/pages/_internal.scss */
+#subscription-form #subscription-question-section h2 {
+  color: #333333;
+  font-weight: bold;
+  text-align: left;
+  text-transform: none;
+  padding-bottom: 10px;
+}
+
+/* line 638, Z:/CB Premium Course/Premium Template/scss/pages/_internal.scss */
+#subscription-form #subscription-question-section p {
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: left;
+  text-transform: none;
+  padding-bottom: 10px;
+  margin-left: 25px;
+}
+
+/* line 650, Z:/CB Premium Course/Premium Template/scss/pages/_internal.scss */
+#subscription-form #subscription-question-section input {
+  font-size: 16px;
+  margin-left: 0px;
+}
+
+/* line 657, Z:/CB Premium Course/Premium Template/scss/pages/_internal.scss */
+#subscription-form #subscription-question-section span {
+  color: #333333;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: none;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+
+@media (min-width: 768px) {
+  /* line 684, Z:/CB Premium Course/Premium Template/scss/pages/_internal.scss */
+  .internals-section, .legal-page-background {
+    padding-bottom: 100px;
+  }
+  /* line 690, Z:/CB Premium Course/Premium Template/scss/pages/_internal.scss */
+  .internals-titles, .error-card h1, #join-entire-page-content .join-form-header, #jfi-modal-dialog .join-form-header, .jfi-success-container .join-form-header, #cb-legal-content-block h1, #cb-legal-content-block #cookiesPolicy h2, #cb-legal-content-block #cookiesList h2, #cb-legal-content-block #cookiesPolicy h3, #cb-legal-content-block #cookiesList h3, #browse-by-container #browse-by-header, #browse-by-container #browse-by-header p, #after-apply-thank-you-header, #edit-preference-view #edit-preference-title, #subscription-title, .search-results-title, .jdp-title-inner-container .jdp-title-block-position .jdp-job-title {
+    font-size: 36px !important;
+  }
+  /**/
+  /**/
+  /* line 705, Z:/CB Premium Course/Premium Template/scss/pages/_internal.scss */
+  .search-bar-element.search-field-container.search-location-field #suggestions {
+    padding-right: 15px !important;
+  }
+  /* line 708, Z:/CB Premium Course/Premium Template/scss/pages/_internal.scss */
+  .search-bar-element.search-field-container.search-location-field #suggestions .list-group-item {
+    text-align: left;
+  }
+  /**/
+  /**/
+  /* line 733, Z:/CB Premium Course/Premium Template/scss/pages/_internal.scss */
+  #cb-legal-content-block #cookiesPolicy table td, #cb-legal-content-block #cookiesList table td {
+    padding: 5px;
+  }
+  /* line 736, Z:/CB Premium Course/Premium Template/scss/pages/_internal.scss */
+  #cb-legal-content-block #cookiesPolicy table td p, #cb-legal-content-block #cookiesList table td p {
+    font-size: 16px;
+  }
+  /* line 743, Z:/CB Premium Course/Premium Template/scss/pages/_internal.scss */
+  #cb-legal-content-block #cookiesPolicy h3, #cb-legal-content-block #cookiesList h3 {
+    font-size: 28px !important;
+  }
+  /**/
+  /**/
+  /* line 765, Z:/CB Premium Course/Premium Template/scss/pages/_internal.scss */
+  #edit-preference-view .top-buffer {
+    margin-top: 0px;
+  }
+  /* line 773, Z:/CB Premium Course/Premium Template/scss/pages/_internal.scss */
+  #edit-preference-view #edit-preference-form #edit-preference-update-btn {
+    float: left;
+  }
+  /* line 779, Z:/CB Premium Course/Premium Template/scss/pages/_internal.scss */
+  #edit-preference-view #edit-preference-form #edit-preference-unsubscribe-link {
+    float: right;
+  }
+  /**/
+  /**/
+  /* line 803, Z:/CB Premium Course/Premium Template/scss/pages/_internal.scss */
+  #join-entire-page-content .join-button-footer-container, #jfi-modal-dialog .join-button-footer-container, .jfi-success-container .join-button-footer-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+  /* line 821, Z:/CB Premium Course/Premium Template/scss/pages/_internal.scss */
+  #join-entire-page-content .join-button-container, #join-entire-page-content #join-apply-block-mobile .text-right, #jfi-modal-dialog .join-button-container, #jfi-modal-dialog #join-apply-block-mobile .text-right, .jfi-success-container .join-button-container, .jfi-success-container #join-apply-block-mobile .text-right {
+    display: table;
+  }
+  /* line 825, Z:/CB Premium Course/Premium Template/scss/pages/_internal.scss */
+  #join-entire-page-content .join-button-container #join-button-mobile, #join-entire-page-content .join-button-container #join-button, #join-entire-page-content .join-button-container #jfi-apply, #join-entire-page-content #join-apply-block-mobile .text-right #join-button-mobile, #join-entire-page-content #join-apply-block-mobile .text-right #join-button, #join-entire-page-content #join-apply-block-mobile .text-right #jfi-apply, #jfi-modal-dialog .join-button-container #join-button-mobile, #jfi-modal-dialog .join-button-container #join-button, #jfi-modal-dialog .join-button-container #jfi-apply, #jfi-modal-dialog #join-apply-block-mobile .text-right #join-button-mobile, #jfi-modal-dialog #join-apply-block-mobile .text-right #join-button, #jfi-modal-dialog #join-apply-block-mobile .text-right #jfi-apply, .jfi-success-container .join-button-container #join-button-mobile, .jfi-success-container .join-button-container #join-button, .jfi-success-container .join-button-container #jfi-apply, .jfi-success-container #join-apply-block-mobile .text-right #join-button-mobile, .jfi-success-container #join-apply-block-mobile .text-right #join-button, .jfi-success-container #join-apply-block-mobile .text-right #jfi-apply {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  /* line 11, Z:/CB Premium Course/Premium Template/scss/abstracts/_mixins.scss */
+  #join-entire-page-content .join-button-container span.btn.primary-button.text-weight-bold, #join-entire-page-content .join-button-container span.btn.primary-button.text-weight-bold:hover, #join-entire-page-content .join-button-container span.btn.primary-button.text-weight-bold:active, #join-entire-page-content .join-button-container span.btn.primary-button.text-weight-bold:focus, #join-entire-page-content #join-apply-block-mobile .text-right span.btn.primary-button.text-weight-bold, #join-entire-page-content #join-apply-block-mobile .text-right span.btn.primary-button.text-weight-bold:hover, #join-entire-page-content #join-apply-block-mobile .text-right span.btn.primary-button.text-weight-bold:active, #join-entire-page-content #join-apply-block-mobile .text-right span.btn.primary-button.text-weight-bold:focus, #jfi-modal-dialog .join-button-container span.btn.primary-button.text-weight-bold, #jfi-modal-dialog .join-button-container span.btn.primary-button.text-weight-bold:hover, #jfi-modal-dialog .join-button-container span.btn.primary-button.text-weight-bold:active, #jfi-modal-dialog .join-button-container span.btn.primary-button.text-weight-bold:focus, #jfi-modal-dialog #join-apply-block-mobile .text-right span.btn.primary-button.text-weight-bold, #jfi-modal-dialog #join-apply-block-mobile .text-right span.btn.primary-button.text-weight-bold:hover, #jfi-modal-dialog #join-apply-block-mobile .text-right span.btn.primary-button.text-weight-bold:active, #jfi-modal-dialog #join-apply-block-mobile .text-right span.btn.primary-button.text-weight-bold:focus, .jfi-success-container .join-button-container span.btn.primary-button.text-weight-bold, .jfi-success-container .join-button-container span.btn.primary-button.text-weight-bold:hover, .jfi-success-container .join-button-container span.btn.primary-button.text-weight-bold:active, .jfi-success-container .join-button-container span.btn.primary-button.text-weight-bold:focus, .jfi-success-container #join-apply-block-mobile .text-right span.btn.primary-button.text-weight-bold, .jfi-success-container #join-apply-block-mobile .text-right span.btn.primary-button.text-weight-bold:hover, .jfi-success-container #join-apply-block-mobile .text-right span.btn.primary-button.text-weight-bold:active, .jfi-success-container #join-apply-block-mobile .text-right span.btn.primary-button.text-weight-bold:focus {
+    display: table-cell;
+    vertical-align: middle;
+    margin-top: 0px;
+    padding: 0px 15px;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 859, Z:/CB Premium Course/Premium Template/scss/pages/_internal.scss */
+  #join-entire-page-content #join-page-content-section, #jfi-modal-dialog #join-page-content-section, .jfi-success-container #join-page-content-section {
+    padding-bottom: 0px;
+  }
+  /* line 864, Z:/CB Premium Course/Premium Template/scss/pages/_internal.scss */
+  #join-entire-page-content .join-is-not-apply-mobile, #join-entire-page-content .join-is-not-apply, #jfi-modal-dialog .join-is-not-apply-mobile, #jfi-modal-dialog .join-is-not-apply, .jfi-success-container .join-is-not-apply-mobile, .jfi-success-container .join-is-not-apply {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 907, Z:/CB Premium Course/Premium Template/scss/pages/_internal.scss */
+  #join-entire-page-content .join-is-not-apply-mobile, #join-entire-page-content .join-is-not-apply, #jfi-modal-dialog .join-is-not-apply-mobile, #jfi-modal-dialog .join-is-not-apply, .jfi-success-container .join-is-not-apply-mobile, .jfi-success-container .join-is-not-apply {
+    font-size: 16px;
+  }
+}
+
+/* line 6, Z:/CB Premium Course/Premium Template/scss/pages/_job-results-page.scss */
+.mobile-sort-jobs {
+  padding-bottom: 20px;
+}
+
+/* line 10, Z:/CB Premium Course/Premium Template/scss/pages/_job-results-page.scss */
+.mobile-sort-jobs .mobile-job-count-message {
+  font-size: 18px;
+  display: block;
+  text-align: center;
+}
+
+/* line 18, Z:/CB Premium Course/Premium Template/scss/pages/_job-results-page.scss */
+.mobile-sort-jobs .mobile-dropdown-sort {
+  margin-top: 10px;
+}
+
+/* line 21, Z:/CB Premium Course/Premium Template/scss/pages/_job-results-page.scss */
+.mobile-sort-jobs .mobile-dropdown-sort #mobile-sort-title {
+  color: #333333;
+}
+
+/* line 26, Z:/CB Premium Course/Premium Template/scss/pages/_job-results-page.scss */
+.mobile-sort-jobs .mobile-dropdown-sort ul {
+  margin: 0px;
+}
+
+/* line 29, Z:/CB Premium Course/Premium Template/scss/pages/_job-results-page.scss */
+.mobile-sort-jobs .mobile-dropdown-sort ul li {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  padding: 0px;
+}
+
+/* line 34, Z:/CB Premium Course/Premium Template/scss/pages/_job-results-page.scss */
+.mobile-sort-jobs .mobile-dropdown-sort ul li a {
+  color: #333333;
+  padding: 10px;
+}
+
+/* line 18, Z:/CB Premium Course/Premium Template/scss/abstracts/_mixins.scss */
+.mobile-sort-jobs .mobile-dropdown-sort ul li:hover, .mobile-sort-jobs .mobile-dropdown-sort ul li:active, .mobile-sort-jobs .mobile-dropdown-sort ul li:focus {
+  background-color: #367c2b;
+}
+
+/* line 42, Z:/CB Premium Course/Premium Template/scss/pages/_job-results-page.scss */
+.mobile-sort-jobs .mobile-dropdown-sort ul li:hover a, .mobile-sort-jobs .mobile-dropdown-sort ul li:active a, .mobile-sort-jobs .mobile-dropdown-sort ul li:focus a {
+  color: #fff;
+}
+
+/* line 56, Z:/CB Premium Course/Premium Template/scss/pages/_job-results-page.scss */
+.breadcrumb {
+  background-color: #fff;
+  margin-bottom: 10px;
+  border-radius: 0px;
+  border: none;
+}
+
+/* line 64, Z:/CB Premium Course/Premium Template/scss/pages/_job-results-page.scss */
+.breadcrumb > li.active, .breadcrumb > li, .breadcrumb > li a {
+  color: #fdda01;
+}
+
+/* line 71, Z:/CB Premium Course/Premium Template/scss/pages/_job-results-page.scss */
+.breadcrumb > li + li:before {
+  padding: 0 5px;
+  color: #333333;
+  content: "/\00a0";
+}
+
+/* line 124, Z:/CB Premium Course/Premium Template/scss/pages/_job-results-page.scss */
+#sign-up-widget {
+  color: #fdda01;
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size: 16px;
+}
+
+/* line 138, Z:/CB Premium Course/Premium Template/scss/pages/_job-results-page.scss */
+#sign-up-widget .fa-envelope-o {
+  color: #fff;
+  background-color: #fdda01;
+  padding: 10px;
+  margin-right: 15px;
+  border-radius: 100%;
+}
+
+/* line 169, Z:/CB Premium Course/Premium Template/scss/pages/_job-results-page.scss */
+.pagination > li {
+  text-align: center;
+}
+
+/* line 173, Z:/CB Premium Course/Premium Template/scss/pages/_job-results-page.scss */
+.pagination > li > a, .pagination > li > span, .pagination > li:last-child > a, .pagination > li:last-child > span, .pagination > li:first-child > a, .pagination > li:first-child > span {
+  border-radius: 100%;
+  color: #fdda01;
+  background-color: #fff;
+  line-height: 35px;
+  padding: 0px;
+  height: 35px;
+  width: 35px;
+}
+
+/* line 18, Z:/CB Premium Course/Premium Template/scss/abstracts/_mixins.scss */
+.pagination > li > a:hover, .pagination > li > a:active, .pagination > li > a:focus, .pagination > li > span:hover, .pagination > li > span:active, .pagination > li > span:focus, .pagination > li:last-child > a:hover, .pagination > li:last-child > a:active, .pagination > li:last-child > a:focus, .pagination > li:last-child > span:hover, .pagination > li:last-child > span:active, .pagination > li:last-child > span:focus, .pagination > li:first-child > a:hover, .pagination > li:first-child > a:active, .pagination > li:first-child > a:focus, .pagination > li:first-child > span:hover, .pagination > li:first-child > span:active, .pagination > li:first-child > span:focus {
+  background-color: #367c2b;
+  color: #fff;
+}
+
+/* line 191, Z:/CB Premium Course/Premium Template/scss/pages/_job-results-page.scss */
+.pagination > li.active > a {
+  background-color: #367c2b;
+  color: #fff;
+}
+
+/* line 18, Z:/CB Premium Course/Premium Template/scss/abstracts/_mixins.scss */
+.pagination > li.active > a:hover, .pagination > li.active > a:active, .pagination > li.active > a:focus {
+  background-color: #2e6925;
+}
+
+/* line 203, Z:/CB Premium Course/Premium Template/scss/pages/_job-results-page.scss */
+.pagination > li > a[href=""] {
+  pointer-events: none;
+  cursor: default;
+}
+
+/* line 210, Z:/CB Premium Course/Premium Template/scss/pages/_job-results-page.scss */
+.pagination > li .previous-page-caret {
+  font-size: 0px;
+}
+
+/* line 213, Z:/CB Premium Course/Premium Template/scss/pages/_job-results-page.scss */
+.pagination > li .previous-page-caret:before {
+  content: "\f0d9";
+  font-size: 22px;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+}
+
+/* line 227, Z:/CB Premium Course/Premium Template/scss/pages/_job-results-page.scss */
+.pagination > li .next-page-caret {
+  font-size: 0px;
+}
+
+/* line 230, Z:/CB Premium Course/Premium Template/scss/pages/_job-results-page.scss */
+.pagination > li .next-page-caret:after {
+  content: "\f0da";
+  font-size: 22px;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+}
+
+/* line 249, Z:/CB Premium Course/Premium Template/scss/pages/_job-results-page.scss */
+.search-results-title {
+  text-align: left;
+  padding-bottom: 0px;
+}
+
+/* line 276, Z:/CB Premium Course/Premium Template/scss/pages/_job-results-page.scss */
+#jrp-desktop-table, #recommendation-table {
+  padding-top: 20px;
+}
+
+/* line 284, Z:/CB Premium Course/Premium Template/scss/pages/_job-results-page.scss */
+#jrp-desktop-facet-col {
+  background-color: #fff;
+}
+
+/* line 288, Z:/CB Premium Course/Premium Template/scss/pages/_job-results-page.scss */
+#jrp-desktop-facet-col #desktop-facets-container {
+  background-color: #fff;
+}
+
+/* line 292, Z:/CB Premium Course/Premium Template/scss/pages/_job-results-page.scss */
+#jrp-desktop-facet-col #desktop-facets-container #narrow-search-header {
+  color: #fff;
+  background-color: #000;
+  font-weight: bold;
+  text-transform: capitalize;
+  width: 100%;
+  margin-bottom: 20px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+/* line 18, Z:/CB Premium Course/Premium Template/scss/abstracts/_mixins.scss */
+#jrp-desktop-facet-col #desktop-facets-container #narrow-search-header:hover, #jrp-desktop-facet-col #desktop-facets-container #narrow-search-header:active, #jrp-desktop-facet-col #desktop-facets-container #narrow-search-header:focus {
+  background-color: black;
+}
+
+/* line 314, Z:/CB Premium Course/Premium Template/scss/pages/_job-results-page.scss */
+#jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body {
+  background-color: #fff;
+}
+
+/* line 324, Z:/CB Premium Course/Premium Template/scss/pages/_job-results-page.scss */
+#jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body .desktop-facets {
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  border-radius: 0px;
+  padding-bottom: 10px;
+}
+
+/* line 351, Z:/CB Premium Course/Premium Template/scss/pages/_job-results-page.scss */
+#jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body .desktop-facets:first-child .caret-facet-category-header {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
+/* line 360, Z:/CB Premium Course/Premium Template/scss/pages/_job-results-page.scss */
+#jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body .desktop-facets:last-child {
+  padding-bottom: 15px;
+}
+
+/* line 375, Z:/CB Premium Course/Premium Template/scss/pages/_job-results-page.scss */
+#jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body .desktop-facets:last-child .caret-facet-category-header {
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+/* line 390, Z:/CB Premium Course/Premium Template/scss/pages/_job-results-page.scss */
+#jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body .desktop-facets .caret-facet-category-header {
+  color: #fff;
+  background-color: #000;
+  font-weight: bold;
+  text-transform: capitalize;
+  text-align: left;
+  padding: 9px 0px 10px 43px;
+  margin: 0px;
+  width: 100%;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+/* line 18, Z:/CB Premium Course/Premium Template/scss/abstracts/_mixins.scss */
+#jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body .desktop-facets .caret-facet-category-header:hover, #jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body .desktop-facets .caret-facet-category-header:active, #jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body .desktop-facets .caret-facet-category-header:focus {
+  background-color: black;
+}
+
+/* line 421, Z:/CB Premium Course/Premium Template/scss/pages/_job-results-page.scss */
+#jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body .desktop-facets .caret-facet-category-header .facet-arrow {
+  color: #fff;
+  font-size: 18px;
+}
+
+/* line 430, Z:/CB Premium Course/Premium Template/scss/pages/_job-results-page.scss */
+#jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body .desktop-facets .caret-facet-item-container {
+  color: #333333;
+  background-color: #fff;
+  font-weight: normal;
+  border: 1px solid #ccc;
+  border-top: none;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 100%;
+}
+
+/* line 442, Z:/CB Premium Course/Premium Template/scss/pages/_job-results-page.scss */
+#jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body .desktop-facets .caret-facet-item-container a, #jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body .desktop-facets .caret-facet-item-container span {
+  text-transform: capitalize;
+}
+
+/* line 459, Z:/CB Premium Course/Premium Template/scss/pages/_job-results-page.scss */
+#jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body .desktop-facets .caret-facet-item-container:first-child {
+  border-top: 1px solid #ccc;
+}
+
+/* line 464, Z:/CB Premium Course/Premium Template/scss/pages/_job-results-page.scss */
+#jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body .desktop-facets .caret-facet-item-container .caret-facet-accent {
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  color: #367c2b;
+}
+
+/* line 18, Z:/CB Premium Course/Premium Template/scss/abstracts/_mixins.scss */
+#jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body .desktop-facets .caret-facet-item-container:hover, #jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body .desktop-facets .caret-facet-item-container:active, #jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body .desktop-facets .caret-facet-item-container:focus {
+  background-color: #4d4d4d;
+  color: #333333;
+}
+
+/* line 476, Z:/CB Premium Course/Premium Template/scss/pages/_job-results-page.scss */
+#jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body .desktop-facets .caret-facet-item-container:hover .caret-facet-accent, #jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body .desktop-facets .caret-facet-item-container:active .caret-facet-accent, #jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body .desktop-facets .caret-facet-item-container:focus .caret-facet-accent {
+  color: #333333;
+}
+
+/* line 485, Z:/CB Premium Course/Premium Template/scss/pages/_job-results-page.scss */
+#jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body .desktop-facets .selected-caret-facet-item-container {
+  color: #367c2b;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  width: 100%;
+  margin: 0px;
+}
+
+/* line 498, Z:/CB Premium Course/Premium Template/scss/pages/_job-results-page.scss */
+#jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body .view-facet-btn-container {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-top: none;
+  text-align: center;
+  width: 100%;
+  margin: 0px;
+  padding: 5px 0px;
+  font-weight: normal;
+}
+
+/* line 531, Z:/CB Premium Course/Premium Template/scss/pages/_job-results-page.scss */
+#jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body .view-facet-btn-container .view_facet_text {
+  color: #333333;
+  font-family: "Roboto", "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.3;
+}
+
+/* line 18, Z:/CB Premium Course/Premium Template/scss/abstracts/_mixins.scss */
+#jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body .view-facet-btn-container .view_facet_text:hover, #jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body .view-facet-btn-container .view_facet_text:active, #jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body .view-facet-btn-container .view_facet_text:focus {
+  text-decoration: underline;
+}
+
+/* line 544, Z:/CB Premium Course/Premium Template/scss/pages/_job-results-page.scss */
+#jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body .view-facet-btn-container .view_facet_text.collapsed:before {
+  content: '+';
+}
+
+/* line 563, Z:/CB Premium Course/Premium Template/scss/pages/_job-results-page.scss */
+#jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body .view-facet-btn-container .view_facet_text:before {
+  content: '-';
+}
+
+/* line 595, Z:/CB Premium Course/Premium Template/scss/pages/_job-results-page.scss */
+#job-result-table, #recommendation-table {
+  margin-bottom: 0px;
+}
+
+/* line 599, Z:/CB Premium Course/Premium Template/scss/pages/_job-results-page.scss */
+#job-result-table #job-result-table-header-table-row, #job-result-table #after-apply-job-table-header, #recommendation-table #job-result-table-header-table-row, #recommendation-table #after-apply-job-table-header {
+  border-bottom: 2px solid #000;
+}
+
+/* line 605, Z:/CB Premium Course/Premium Template/scss/pages/_job-results-page.scss */
+#job-result-table .job-result-header, #recommendation-table .job-result-header {
+  background-color: #fff;
+  padding: 8px;
+  min-width: 165px;
+  font-size: 16px;
+}
+
+/* line 619, Z:/CB Premium Course/Premium Template/scss/pages/_job-results-page.scss */
+#job-result-table .job-result-header #desktop-job-location-sort, #job-result-table .job-result-header .job-table-header-location, #recommendation-table .job-result-header #desktop-job-location-sort, #recommendation-table .job-result-header .job-table-header-location {
+  pointer-events: none;
+  cursor: default;
+}
+
+/* line 626, Z:/CB Premium Course/Premium Template/scss/pages/_job-results-page.scss */
+#job-result-table .job-result-header a, #job-result-table .job-result-header span, #job-result-table .job-result-header .job-table-header-title, #job-result-table .job-result-header .job-table-header-location, #job-result-table .job-result-header .job-table-header-date-posted, #recommendation-table .job-result-header a, #recommendation-table .job-result-header span, #recommendation-table .job-result-header .job-table-header-title, #recommendation-table .job-result-header .job-table-header-location, #recommendation-table .job-result-header .job-table-header-date-posted {
+  color: #367c2b;
+  text-transform: capitalize;
+  font-weight: bold;
+  display: inline-block;
+}
+
+/* line 18, Z:/CB Premium Course/Premium Template/scss/abstracts/_mixins.scss */
+#job-result-table .job-result-header a:hover, #job-result-table .job-result-header a:active, #job-result-table .job-result-header a:focus, #job-result-table .job-result-header span:hover, #job-result-table .job-result-header span:active, #job-result-table .job-result-header span:focus, #job-result-table .job-result-header .job-table-header-title:hover, #job-result-table .job-result-header .job-table-header-title:active, #job-result-table .job-result-header .job-table-header-title:focus, #job-result-table .job-result-header .job-table-header-location:hover, #job-result-table .job-result-header .job-table-header-location:active, #job-result-table .job-result-header .job-table-header-location:focus, #job-result-table .job-result-header .job-table-header-date-posted:hover, #job-result-table .job-result-header .job-table-header-date-posted:active, #job-result-table .job-result-header .job-table-header-date-posted:focus, #recommendation-table .job-result-header a:hover, #recommendation-table .job-result-header a:active, #recommendation-table .job-result-header a:focus, #recommendation-table .job-result-header span:hover, #recommendation-table .job-result-header span:active, #recommendation-table .job-result-header span:focus, #recommendation-table .job-result-header .job-table-header-title:hover, #recommendation-table .job-result-header .job-table-header-title:active, #recommendation-table .job-result-header .job-table-header-title:focus, #recommendation-table .job-result-header .job-table-header-location:hover, #recommendation-table .job-result-header .job-table-header-location:active, #recommendation-table .job-result-header .job-table-header-location:focus, #recommendation-table .job-result-header .job-table-header-date-posted:hover, #recommendation-table .job-result-header .job-table-header-date-posted:active, #recommendation-table .job-result-header .job-table-header-date-posted:focus {
+  text-decoration: none;
+}
+
+/* line 643, Z:/CB Premium Course/Premium Template/scss/pages/_job-results-page.scss */
+#job-result-table .job-result-header .job-table-header-title, #job-result-table .job-result-header .job-table-header-location, #job-result-table .job-result-header .job-table-header-date-posted, #recommendation-table .job-result-header .job-table-header-title, #recommendation-table .job-result-header .job-table-header-location, #recommendation-table .job-result-header .job-table-header-date-posted {
+  display: table-cell;
+}
+
+/* line 649, Z:/CB Premium Course/Premium Template/scss/pages/_job-results-page.scss */
+#job-result-table .job-result-header .glyphicon-menu-down, #job-result-table .job-result-header .glyphicon-menu-up, #recommendation-table .job-result-header .glyphicon-menu-down, #recommendation-table .job-result-header .glyphicon-menu-up {
+  color: #fdda01;
+}
+
+/* line 657, Z:/CB Premium Course/Premium Template/scss/pages/_job-results-page.scss */
+#job-result-table .job-result, #recommendation-table .job-result {
+  font-size: 16px;
+  border-top: solid 1px #ccc;
+}
+
+/* line 664, Z:/CB Premium Course/Premium Template/scss/pages/_job-results-page.scss */
+#job-result-table .job-result td .job-result-title, #recommendation-table .job-result td .job-result-title {
+  color: #367c2b;
+  font-weight: bold;
+}
+
+/* line 18, Z:/CB Premium Course/Premium Template/scss/abstracts/_mixins.scss */
+#job-result-table .job-result td .job-result-title:hover, #job-result-table .job-result td .job-result-title:active, #job-result-table .job-result td .job-result-title:focus, #recommendation-table .job-result td .job-result-title:hover, #recommendation-table .job-result td .job-result-title:active, #recommendation-table .job-result td .job-result-title:focus {
+  background-color: transparent;
+  text-decoration: none;
+}
+
+/* line 684, Z:/CB Premium Course/Premium Template/scss/pages/_job-results-page.scss */
+#job-result-table .job-result td, #job-result-table .job-result td .address-line, #job-result-table .job-result td.job-result-company-cell, #job-result-table .job-result td.job-result-company-cell .address-line, #job-result-table .job-result td.job-result-location-cell, #job-result-table .job-result td.job-result-location-cell .address-line, #job-result-table .job-result td.job-result-date-posted-cell, #job-result-table .job-result td.job-result-date-posted-cell .address-line, #recommendation-table .job-result td, #recommendation-table .job-result td .address-line, #recommendation-table .job-result td.job-result-company-cell, #recommendation-table .job-result td.job-result-company-cell .address-line, #recommendation-table .job-result td.job-result-location-cell, #recommendation-table .job-result td.job-result-location-cell .address-line, #recommendation-table .job-result td.job-result-date-posted-cell, #recommendation-table .job-result td.job-result-date-posted-cell .address-line {
+  color: #333333;
+}
+
+/* line 690, Z:/CB Premium Course/Premium Template/scss/pages/_job-results-page.scss */
+#job-result-table .job-result td .address-line, #job-result-table .job-result td.job-result-company-cell .address-line, #job-result-table .job-result td.job-result-location-cell .address-line, #job-result-table .job-result td.job-result-date-posted-cell .address-line, #recommendation-table .job-result td .address-line, #recommendation-table .job-result td.job-result-company-cell .address-line, #recommendation-table .job-result td.job-result-location-cell .address-line, #recommendation-table .job-result td.job-result-date-posted-cell .address-line {
+  display: table-cell;
+}
+
+/* line 11, Z:/CB Premium Course/Premium Template/scss/abstracts/_mixins.scss */
+#job-result-table .job-result td.job-table-element-arrow a, #job-result-table .job-result td.job-table-element-arrow a:hover, #job-result-table .job-result td.job-table-element-arrow a:active, #job-result-table .job-result td.job-table-element-arrow a:focus, #recommendation-table .job-result td.job-table-element-arrow a, #recommendation-table .job-result td.job-table-element-arrow a:hover, #recommendation-table .job-result td.job-table-element-arrow a:active, #recommendation-table .job-result td.job-table-element-arrow a:focus {
+  color: #367c2b;
+}
+
+/* line 18, Z:/CB Premium Course/Premium Template/scss/abstracts/_mixins.scss */
+#job-result-table .job-result:hover, #job-result-table .job-result:active, #job-result-table .job-result:focus, #recommendation-table .job-result:hover, #recommendation-table .job-result:active, #recommendation-table .job-result:focus {
+  background-color: #4d4d4d;
+}
+
+/* line 778, Z:/CB Premium Course/Premium Template/scss/pages/_job-results-page.scss */
+#no-jobs-message {
+  padding: 30px 15px;
+  text-align: center;
+}
+
+/* line 790, Z:/CB Premium Course/Premium Template/scss/pages/_job-results-page.scss */
+.jrp-pagination-row {
+  padding-bottom: 0px;
+}
+
+/* line 794, Z:/CB Premium Course/Premium Template/scss/pages/_job-results-page.scss */
+.jrp-pagination-row .mobile-pagination {
+  text-align: center;
+}
+
+/* line 18, Z:/CB Premium Course/Premium Template/scss/abstracts/_mixins.scss */
+.jrp-pagination-row .mobile-pagination .next-mobile-page:hover, .jrp-pagination-row .mobile-pagination .next-mobile-page:active, .jrp-pagination-row .mobile-pagination .next-mobile-page:focus,
+.jrp-pagination-row .mobile-pagination .previous-mobile-page:hover,
+.jrp-pagination-row .mobile-pagination .previous-mobile-page:active,
+.jrp-pagination-row .mobile-pagination .previous-mobile-page:focus {
+  opacity: 1;
+}
+
+@media (min-width: 992px) {
+  /* line 818, Z:/CB Premium Course/Premium Template/scss/pages/_job-results-page.scss */
+  #jrp-desktop-facet-col .caret-facet-category-header, #job-result-table .job-result-header, #recommendation-table .job-result-header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  /* line 822, Z:/CB Premium Course/Premium Template/scss/pages/_job-results-page.scss */
+  #jrp-desktop-facet-col .caret-facet-category-header, #jrp-desktop-facet-col .caret-facet-category-header a, #jrp-desktop-facet-col .caret-facet-category-header span, #jrp-desktop-facet-col .caret-facet-category-header .job-table-header-title, #jrp-desktop-facet-col .caret-facet-category-header .job-table-header-location, #jrp-desktop-facet-col .caret-facet-category-header .job-table-header-date-posted, #job-result-table .job-result-header, #job-result-table .job-result-header a, #job-result-table .job-result-header span, #job-result-table .job-result-header .job-table-header-title, #job-result-table .job-result-header .job-table-header-location, #job-result-table .job-result-header .job-table-header-date-posted, #recommendation-table .job-result-header, #recommendation-table .job-result-header a, #recommendation-table .job-result-header span, #recommendation-table .job-result-header .job-table-header-title, #recommendation-table .job-result-header .job-table-header-location, #recommendation-table .job-result-header .job-table-header-date-posted {
+    font-size: 18px;
+    line-height: 1.3;
+  }
+  /* line 842, Z:/CB Premium Course/Premium Template/scss/pages/_job-results-page.scss */
+  #jrp-desktop-facet-col #desktop-facets-container #narrow-search-header {
+    display: none;
+  }
+  /* line 848, Z:/CB Premium Course/Premium Template/scss/pages/_job-results-page.scss */
+  #jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body {
+    margin-top: 0px;
+  }
+  /* line 859, Z:/CB Premium Course/Premium Template/scss/pages/_job-results-page.scss */
+  #jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body .desktop-facets {
+    padding-bottom: 25px;
+  }
+  /* line 873, Z:/CB Premium Course/Premium Template/scss/pages/_job-results-page.scss */
+  #jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body .desktop-facets .caret-facet-category-header {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+  }
+  /* line 902, Z:/CB Premium Course/Premium Template/scss/pages/_job-results-page.scss */
+  #jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body .desktop-facets:last-child {
+    padding-bottom: 0px;
+  }
+  /* line 908, Z:/CB Premium Course/Premium Template/scss/pages/_job-results-page.scss */
+  #jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body .desktop-facets .caret-facet-category-header {
+    text-align: left;
+    padding: 10px 0px 10px 14px;
+  }
+  /* line 18, Z:/CB Premium Course/Premium Template/scss/abstracts/_mixins.scss */
+  #jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body .desktop-facets .caret-facet-category-header:hover, #jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body .desktop-facets .caret-facet-category-header:active, #jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body .desktop-facets .caret-facet-category-header:focus {
+    background-color: #000;
+  }
+  /* line 929, Z:/CB Premium Course/Premium Template/scss/pages/_job-results-page.scss */
+  #jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body .desktop-facets .caret-facet-item-container {
+    margin: 0px;
+  }
+  /* line 949, Z:/CB Premium Course/Premium Template/scss/pages/_job-results-page.scss */
+  #jrp-bottom-desktop-pagination {
+    padding-top: 30px;
+  }
+  /* line 957, Z:/CB Premium Course/Premium Template/scss/pages/_job-results-page.scss */
+  #job-result-table .job-result-header, #recommendation-table .job-result-header {
+    min-width: 215px;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 973, Z:/CB Premium Course/Premium Template/scss/pages/_job-results-page.scss */
+  #jrp-desktop-facet-col .caret-facet-category-header, #jrp-desktop-facet-col .caret-facet-category-header a, #jrp-desktop-facet-col .caret-facet-category-header span, #jrp-desktop-facet-col .caret-facet-category-header .job-table-header-title, #jrp-desktop-facet-col .caret-facet-category-header .job-table-header-location, #jrp-desktop-facet-col .caret-facet-category-header .job-table-header-date-posted, #job-result-table .job-result-header, #job-result-table .job-result-header a, #job-result-table .job-result-header span, #job-result-table .job-result-header .job-table-header-title, #job-result-table .job-result-header .job-table-header-location, #job-result-table .job-result-header .job-table-header-date-posted, #recommendation-table .job-result-header, #recommendation-table .job-result-header a, #recommendation-table .job-result-header span, #recommendation-table .job-result-header .job-table-header-title, #recommendation-table .job-result-header .job-table-header-location, #recommendation-table .job-result-header .job-table-header-date-posted {
+    font-size: 20px;
+  }
+  /* line 982, Z:/CB Premium Course/Premium Template/scss/pages/_job-results-page.scss */
+  #job-result-table .job-result-header, #recommendation-table .job-result-header {
+    min-width: 265px;
+  }
+}
+
+/* line 6, Z:/CB Premium Course/Premium Template/scss/pages/_job-details-page.scss */
+#job-details-page .container .container {
+  width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+/* line 14, Z:/CB Premium Course/Premium Template/scss/pages/_job-details-page.scss */
+#jdp-apply-button-top, #jdp-apply-button-bottom, #jdp-apply-button-top-mobile, #jdp-apply-button-bottom-mobile {
+  max-width: 185px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+/* line 24, Z:/CB Premium Course/Premium Template/scss/pages/_job-details-page.scss */
+#jdp-not-ready-to-apply-link-top,
+#jdp-not-ready-to-apply-link-bottom {
+  color: #fdda01;
+  font-weight: bold;
+  text-align: center;
+  text-transform: capitalize;
+  margin-top: 0px;
+}
+
+/* line 36, Z:/CB Premium Course/Premium Template/scss/pages/_job-details-page.scss */
+.jdp-title-inner-container {
+  background-color: #fff;
+  padding: 15px;
+  display: table;
+  width: 100%;
+  margin-top: 0px;
+}
+
+/* line 47, Z:/CB Premium Course/Premium Template/scss/pages/_job-details-page.scss */
+.jdp-title-inner-container .jdp-title-block-position .jdp-job-title {
+  text-align: center;
+  padding-bottom: 0px;
+}
+
+/* line 94, Z:/CB Premium Course/Premium Template/scss/pages/_job-details-page.scss */
+.jdp-title-inner-container .jdp-title-block-position #jdp-title-date-posted {
+  color: #333333;
+  padding-top: 10px;
+  text-align: center;
+}
+
+/* line 116, Z:/CB Premium Course/Premium Template/scss/pages/_job-details-page.scss */
+.job-details-content {
+  background-color: #fff;
+  padding-top: 0px;
+}
+
+/* line 121, Z:/CB Premium Course/Premium Template/scss/pages/_job-details-page.scss */
+.job-details-content .content-card-header {
+  color: #367c2b;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: left;
+  text-transform: capitalize;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+/* line 145, Z:/CB Premium Course/Premium Template/scss/pages/_job-details-page.scss */
+.job-details-content #jdp-social-sharing-section {
+  border-top: 3px solid #ccc;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+/* line 157, Z:/CB Premium Course/Premium Template/scss/pages/_job-details-page.scss */
+.job-details-content .jdp-job-snapshot-card {
+  padding: 0px 0px 15px 0px;
+  margin-bottom: 30px;
+}
+
+/* line 170, Z:/CB Premium Course/Premium Template/scss/pages/_job-details-page.scss */
+.job-details-content .jdp-job-snapshot-card .content-card-header {
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom: 2px solid #ccc;
+  margin: 0px 20px 0px 20px;
+  padding: 20px 5px 20px 5px;
+}
+
+/* line 189, Z:/CB Premium Course/Premium Template/scss/pages/_job-details-page.scss */
+.job-details-content .jdp-job-snapshot-card .snapshot-padding {
+  padding: 20px;
+  line-height: 1.3;
+}
+
+/* line 201, Z:/CB Premium Course/Premium Template/scss/pages/_job-details-page.scss */
+.job-details-content .jdp-job-snapshot-card .snapshot-padding li {
+  padding-bottom: 0px;
+}
+
+/* line 209, Z:/CB Premium Course/Premium Template/scss/pages/_job-details-page.scss */
+.job-details-content .jdp-job-snapshot-card .snapshot-padding li .snapshot-icon.secondary-text-color {
+  color: #fdda01;
+  font-size: 24px;
+  padding-top: 5px;
+  padding-right: 10px;
+}
+
+/* line 216, Z:/CB Premium Course/Premium Template/scss/pages/_job-details-page.scss */
+.job-details-content .jdp-job-snapshot-card .snapshot-padding li .snapshot-icon.secondary-text-color.glyphicon-triangle-top {
+  padding-top: 0px;
+}
+
+/* line 220, Z:/CB Premium Course/Premium Template/scss/pages/_job-details-page.scss */
+.job-details-content .jdp-job-snapshot-card .snapshot-padding li .snapshot-icon.secondary-text-color.fa-clock-o, .job-details-content .jdp-job-snapshot-card .snapshot-padding li .snapshot-icon.secondary-text-color.fa-info-circle {
+  padding-top: 5px;
+}
+
+/* line 231, Z:/CB Premium Course/Premium Template/scss/pages/_job-details-page.scss */
+.job-details-content .jdp-job-snapshot-card .snapshot-padding li .snapshot-text {
+  color: #333333;
+}
+
+/* line 245, Z:/CB Premium Course/Premium Template/scss/pages/_job-details-page.scss */
+.job-details-content .jdp-job-snapshot-card .snapshot-padding li .secondary-text-color {
+  color: #fdda01;
+  font-weight: normal;
+}
+
+/* line 256, Z:/CB Premium Course/Premium Template/scss/pages/_job-details-page.scss */
+.job-details-content .jdp-job-snapshot-card .snapshot-padding li .job-snapshot-link {
+  color: #367c2b;
+  font-weight: bold;
+}
+
+/* line 18, Z:/CB Premium Course/Premium Template/scss/abstracts/_mixins.scss */
+.job-details-content .jdp-job-snapshot-card .snapshot-padding li .job-snapshot-link:hover, .job-details-content .jdp-job-snapshot-card .snapshot-padding li .job-snapshot-link:active, .job-details-content .jdp-job-snapshot-card .snapshot-padding li .job-snapshot-link:focus {
+  color: #fee54d;
+}
+
+/* line 290, Z:/CB Premium Course/Premium Template/scss/pages/_job-details-page.scss */
+.job-details-content #jdp-job-description-section {
+  background-color: #fff;
+  border-top: 3px solid #ccc;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  margin-top: 0px;
+}
+
+/* line 303, Z:/CB Premium Course/Premium Template/scss/pages/_job-details-page.scss */
+.job-details-content #jdp-job-description-section .jdp-job-description-card {
+  padding-top: 0px;
+  margin-bottom: 0px;
+}
+
+/* line 312, Z:/CB Premium Course/Premium Template/scss/pages/_job-details-page.scss */
+.job-details-content #jdp-job-description-section .jdp-job-description-card, .job-details-content #jdp-job-description-section .jdp-job-description-card p, .job-details-content #jdp-job-description-section .jdp-job-description-card #cb-legal-content-block #cookiesPolicy p, #cb-legal-content-block #cookiesPolicy .job-details-content #jdp-job-description-section .jdp-job-description-card p, .job-details-content #jdp-job-description-section .jdp-job-description-card #cb-legal-content-block #cookiesList p, #cb-legal-content-block #cookiesList .job-details-content #jdp-job-description-section .jdp-job-description-card p, .job-details-content #jdp-job-description-section .jdp-job-description-card li {
+  color: #333333;
+}
+
+/* line 320, Z:/CB Premium Course/Premium Template/scss/pages/_job-details-page.scss */
+.job-details-content #jdp-job-description-section .jdp-job-description-card a {
+  color: #367c2b;
+}
+
+/* line 18, Z:/CB Premium Course/Premium Template/scss/abstracts/_mixins.scss */
+.job-details-content #jdp-job-description-section .jdp-job-description-card a:hover, .job-details-content #jdp-job-description-section .jdp-job-description-card a:active, .job-details-content #jdp-job-description-section .jdp-job-description-card a:focus {
+  color: #367c2b;
+  text-decoration: underline;
+}
+
+/* line 334, Z:/CB Premium Course/Premium Template/scss/pages/_job-details-page.scss */
+.job-details-content #jdp-job-requirements-section {
+  background-color: #fff;
+  border-bottom: none;
+}
+
+/* line 354, Z:/CB Premium Course/Premium Template/scss/pages/_job-details-page.scss */
+.job-details-content #jdp-job-requirements-section .jdp-job-requirements-card, .job-details-content #jdp-job-requirements-section .jdp-job-requirements-card p, .job-details-content #jdp-job-requirements-section .jdp-job-requirements-card #cb-legal-content-block #cookiesPolicy p, #cb-legal-content-block #cookiesPolicy .job-details-content #jdp-job-requirements-section .jdp-job-requirements-card p, .job-details-content #jdp-job-requirements-section .jdp-job-requirements-card #cb-legal-content-block #cookiesList p, #cb-legal-content-block #cookiesList .job-details-content #jdp-job-requirements-section .jdp-job-requirements-card p, .job-details-content #jdp-job-requirements-section .jdp-job-requirements-card li {
+  color: #333333;
+}
+
+/* line 362, Z:/CB Premium Course/Premium Template/scss/pages/_job-details-page.scss */
+.job-details-content #jdp-job-requirements-section .jdp-job-requirements-card a {
+  color: #367c2b;
+}
+
+/* line 18, Z:/CB Premium Course/Premium Template/scss/abstracts/_mixins.scss */
+.job-details-content #jdp-job-requirements-section .jdp-job-requirements-card a:hover, .job-details-content #jdp-job-requirements-section .jdp-job-requirements-card a:active, .job-details-content #jdp-job-requirements-section .jdp-job-requirements-card a:focus {
+  color: #367c2b;
+  text-decoration: underline;
+}
+
+/* line 376, Z:/CB Premium Course/Premium Template/scss/pages/_job-details-page.scss */
+.job-details-content #jdp-bottom-apply-section {
+  margin-top: 10px;
+  background-color: #fff;
+  margin-top: 10px;
+  border-top: 3px solid #ccc;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+/* line 389, Z:/CB Premium Course/Premium Template/scss/pages/_job-details-page.scss */
+.job-details-content #jdp-bottom-apply-section .jdp-bottom-apply-card {
+  padding-bottom: 5px;
+}
+
+/* line 400, Z:/CB Premium Course/Premium Template/scss/pages/_job-details-page.scss */
+.job-details-content #jdp-bottom-apply-section #jdp-bottom-apply-button-col {
+  padding-top: 20px;
+}
+
+/* line 418, Z:/CB Premium Course/Premium Template/scss/pages/_job-details-page.scss */
+.job-details-content #jdp-similar-jobs-row {
+  background-color: #fff;
+  padding: 10px 0px;
+  margin: 0px;
+}
+
+/* line 431, Z:/CB Premium Course/Premium Template/scss/pages/_job-details-page.scss */
+.job-details-content #jdp-similar-jobs-row h3 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #367c2b;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+/* line 453, Z:/CB Premium Course/Premium Template/scss/pages/_job-details-page.scss */
+.job-details-content #jdp-similar-jobs-row .similar-jobs {
+  text-align: center;
+}
+
+/* line 458, Z:/CB Premium Course/Premium Template/scss/pages/_job-details-page.scss */
+.job-details-content #jdp-similar-jobs-row .similar-jobs li .similar-jobs-tag {
+  color: #367c2b;
+}
+
+/* line 468, Z:/CB Premium Course/Premium Template/scss/pages/_job-details-page.scss */
+.job-details-content #jdp-similar-jobs-row .similar-jobs > li + li:before {
+  padding: 0px;
+  content: "";
+  color: #367c2b;
+}
+
+@media (min-width: 768px) {
+  /* line 486, Z:/CB Premium Course/Premium Template/scss/pages/_job-details-page.scss */
+  .job-details-content .content-card-header {
+    text-align: left;
+  }
+  /* line 493, Z:/CB Premium Course/Premium Template/scss/pages/_job-details-page.scss */
+  #jdp-not-ready-to-apply-link-top,
+  #jdp-not-ready-to-apply-link-bottom {
+    font-size: 12px;
+  }
+  /* line 500, Z:/CB Premium Course/Premium Template/scss/pages/_job-details-page.scss */
+  .jdp-title-inner-container {
+    margin-top: 0px;
+  }
+  /* line 506, Z:/CB Premium Course/Premium Template/scss/pages/_job-details-page.scss */
+  .jdp-title-inner-container .jdp-title-block-position .jdp-job-title {
+    text-align: left;
+  }
+  /* line 512, Z:/CB Premium Course/Premium Template/scss/pages/_job-details-page.scss */
+  .jdp-title-inner-container .jdp-title-block-position #jdp-title-date-posted {
+    text-align: left;
+  }
+  /* line 520, Z:/CB Premium Course/Premium Template/scss/pages/_job-details-page.scss */
+  .jdp-title-inner-container .jdp-top-apply-block-position {
+    width: 25%;
+    vertical-align: middle;
+    padding-top: 0px;
+  }
+  /* line 536, Z:/CB Premium Course/Premium Template/scss/pages/_job-details-page.scss */
+  .job-details-content #jdp-bottom-apply-section #jdp-bottom-apply-company-logo-col .multi-brand-image {
+    text-align: left;
+  }
+  /* line 543, Z:/CB Premium Course/Premium Template/scss/pages/_job-details-page.scss */
+  .job-details-content #jdp-bottom-apply-section #jdp-bottom-apply-button-col {
+    padding-top: 0px;
+  }
+  /* line 553, Z:/CB Premium Course/Premium Template/scss/pages/_job-details-page.scss */
+  .job-details-content #jdp-similar-jobs-row h3 {
+    text-align: left;
+  }
+  /* line 559, Z:/CB Premium Course/Premium Template/scss/pages/_job-details-page.scss */
+  .job-details-content #jdp-similar-jobs-row .similar-jobs {
+    text-align: left;
+  }
+  /* line 562, Z:/CB Premium Course/Premium Template/scss/pages/_job-details-page.scss */
+  .job-details-content #jdp-similar-jobs-row .similar-jobs > li + li:before {
+    padding: 0 0.55em;
+    content: "|";
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 623, Z:/CB Premium Course/Premium Template/scss/pages/_job-details-page.scss */
+  #jdp-not-ready-to-apply-link-top,
+  #jdp-not-ready-to-apply-link-bottom {
+    font-size: 16px;
+  }
+}
+
+/* line 6, Z:/CB Premium Course/Premium Template/scss/pages/_cookies.scss */
+#cookies-policy-bar-placeholder {
+  display: none;
+}
+
+/* line 11, Z:/CB Premium Course/Premium Template/scss/pages/_cookies.scss */
+#cookies-policy-bar-section {
+  position: fixed;
+  z-index: 1035;
+  bottom: 0px;
+  top: auto;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  background: #367c2b;
+  padding: 0px;
+  height: auto;
+}
+
+/* line 24, Z:/CB Premium Course/Premium Template/scss/pages/_cookies.scss */
+#cookies-policy-bar-section #cookies-policy-bar {
+  padding: 10px;
+}
+
+/* line 28, Z:/CB Premium Course/Premium Template/scss/pages/_cookies.scss */
+#cookies-policy-bar-section #cookies-policy-bar-dismiss-button {
+  opacity: 1;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+/* line 11, Z:/CB Premium Course/Premium Template/scss/abstracts/_mixins.scss */
+#cookies-policy-bar-section #cookies-policy-bar-dismiss-button, #cookies-policy-bar-section #cookies-policy-bar-dismiss-button:hover, #cookies-policy-bar-section #cookies-policy-bar-dismiss-button:active, #cookies-policy-bar-section #cookies-policy-bar-dismiss-button:focus {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+}
+
+/* line 18, Z:/CB Premium Course/Premium Template/scss/abstracts/_mixins.scss */
+#cookies-policy-bar-section #cookies-policy-bar-dismiss-button:hover, #cookies-policy-bar-section #cookies-policy-bar-dismiss-button:active, #cookies-policy-bar-section #cookies-policy-bar-dismiss-button:focus {
+  opacity: 0.7;
+}
+
+/* line 45, Z:/CB Premium Course/Premium Template/scss/pages/_cookies.scss */
+#cookies-policy-bar-section .text-center {
+  font-size: 16px;
+  color: #fff;
+}
+
+/* line 49, Z:/CB Premium Course/Premium Template/scss/pages/_cookies.scss */
+#cookies-policy-bar-section .text-center #cookies-policy-link {
+  opacity: 1;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+/* line 11, Z:/CB Premium Course/Premium Template/scss/abstracts/_mixins.scss */
+#cookies-policy-bar-section .text-center #cookies-policy-link, #cookies-policy-bar-section .text-center #cookies-policy-link:hover, #cookies-policy-bar-section .text-center #cookies-policy-link:active, #cookies-policy-bar-section .text-center #cookies-policy-link:focus {
+  font-size: 16px;
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* line 18, Z:/CB Premium Course/Premium Template/scss/abstracts/_mixins.scss */
+#cookies-policy-bar-section .text-center #cookies-policy-link:hover, #cookies-policy-bar-section .text-center #cookies-policy-link:active, #cookies-policy-bar-section .text-center #cookies-policy-link:focus {
+  opacity: 0.7;
+}
+
+/*# sourceMappingURL=../css/main.map */
