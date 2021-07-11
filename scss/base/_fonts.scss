@@ -1,0 +1,51 @@
+// -----------------------------------------------------------------------------
+// This file contains all @font-face declarations, if any.
+// -----------------------------------------------------------------------------
+
+// 100 - Thin
+// 200 - Extra Light, Ultra Light
+// 300 - Light
+// 400 - Normal, Book, Regular
+// 500 - Medium
+// 600 - Semi Bold, Demi Bold
+// 700 - Bold
+// 800 - Extra Bold, Ultra Bold
+// 900 - Black, Heavy
+
+// Open Sans
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+
+// Roboto
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+
+// Font Awesome 4.7.0
+// @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+//Custom Font
+@font-face {
+  font-family: 'JDSans';
+  src: url("../assets/fonts/JDSans-bold/JDSansPro-Bold.eot");
+  src: url("../assets/fonts/JDSans-bold/JDSansPro-Bold.eot?#iefix") format("embedded-opentype"),
+  url("../assets/fonts/JDSans-bold/JDSansPro-Bold.woff2") format("woff2"),
+  url("../assets/fonts/JDSans-bold/JDSansPro-Bold.woff") format("woff"),
+  url("../assets/fonts/JDSans-bold/JDSansPro-Bold.otf"),
+  url("../assets/fonts/JDSans-bold/JDSansPro-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+//End Custom Font
+
+//Custom Font
+@font-face {
+  font-family: 'JDSans';
+  src: url("../assets/fonts/JDSans-medium/JDSansPro-Medium.eot");
+  src: url("../assets/fonts/JDSans-medium/JDSansPro-Medium.eot?#iefix") format("embedded-opentype"),
+  url("../assets/fonts/JDSans-medium/JDSansPro-Medium.woff2") format("woff2"),
+  url("../assets/fonts/JDSans-medium/JDSansPro-Medium.woff") format("woff"),
+  url("../assets/fonts/JDSans-medium/JDSansPro-Medium.otf"),
+  url("../assets/fonts/JDSans-medium/JDSansPro-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+//End Custom Font
