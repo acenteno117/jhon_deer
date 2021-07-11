@@ -1,0 +1,528 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+<html lang="en-US" xmlns="http://www.w3.org/1999/xhtml" ng-app="pencilblueApp">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+  <title>Jobs at John Deere</title>
+
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+
+  <link rel="shortcut icon" href="img/favicon.png">
+
+  <link rel="stylesheet" type="text/css" href="assets/bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/bower_components/fontawesome/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/public/cms_base/version/935a51c32c21711dedacab4a6359b01c78d0912f/css/general_styles.css">
+  <!-- <link rel="stylesheet" type="text/css" href=""> -->
+  <link rel="stylesheet" type="text/css" href="assets/public/premium/css/premium_custom_styles.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <script type="text/javascript" src="assets/public/cms_base/version/935a51c32c21711dedacab4a6359b01c78d0912f/compiled_bower/required_bower_scripts.min.js"></script>
+</head>
+<body id="premium-body" ng-controller="PencilBlueController">
+
+
+  <div id="src-tracking-loader" ng-controller="SourceTrackingFrontController"></div>
+
+  <!-- Header -->
+  <header id="back-top">
+    <!-- Top navbar -->
+    <section class="top-navbar">
+      <!-- Navbar default -->
+      <nav class="navbar navbar-default" role="navigation">
+        <!-- Container -->
+        <div class="container">
+
+          <!-- Navbar mobile -->
+          <div class="navbar-header">
+            <!-- Navbar toggle -->
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar top-bar"></span>
+              <span class="icon-bar middle-bar"></span>
+              <span class="icon-bar bottom-bar"></span>
+            </button>
+            <!-- End Navbar toggle -->
+
+            <!-- Logo desktop -->
+            <a href="/" class="navbar-brand hidden-xs hidden-sm" title="John Deere Careers" alt="John Deere Careers">
+              <img src="img/logo.png" alt="John Deere Careers">
+            </a>
+            <!-- End Logo desktop -->
+
+            <!-- Logo mobile -->
+            <a href="https://www.behance.net/alvarocentenotech" class="navbar-brand visible-xs visible-sm" title="John Deere Careers" alt="John Deere Careers">
+              <img src="img/logo-mobile.png" alt="John Deere Careers">
+            </a>
+            <!-- End Logo mobile -->
+          </div>
+          <!-- End Navbar mobile -->
+
+          <!-- Navbar collapse -->
+          <div class="collapse navbar-collapse" id="navbar">
+            <!-- Navbar nav -->
+            <ul class="nav navbar-nav">
+              <!-- Navigation -->
+              <!-- ^navigation^ -->
+              <li class="active">
+                <a href="https://www.behance.net/alvarocentenotech" target="">
+                  Home
+                </a>
+              </li>
+              <li class="dropdown ">
+                <a href="https://www.behance.net/alvarocentenotech" class="dropdown-toggle disabled" data-toggle="dropdown">
+                  View All Dealer Jobs&nbsp;<i class="fa fa-angle-down"></i>
+                </a>
+                <ul class="dropdown-menu">
+                  <li class="active">
+                    <a href="#" target="_self">
+                      Browse By Category
+                    </a>
+                  </li>
+                  <li class="">
+                    <a href="#" target="_self">
+                      Browse By Location
+                    </a>
+                  </li>
+                  <li class="">
+                    <a href="#" target="_self">
+                      Browse By Dealer
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <!-- End Navigation -->
+              <li class="visible-xs">
+                <a href="https://www.behance.net/alvarocentenotech" title="Join Our Talent Network">Join Our Talent Network</a>
+              </li>
+
+              <div class="join-top hidden-xs">
+                <a href="/https://www.behance.net/alvarocentenotech" class="btn btn-join" title="Join Our Talent Network">Join Our Talent Network</a>
+              </div>
+            </ul>
+            <!-- End Navbar nav -->
+          </div>
+          <!-- End Navbar collapse -->
+        </div>
+        <!-- Container -->
+      </nav>
+      <!-- End Navbar default -->
+    </section>
+    <!-- End Top navbar -->
+  </header>
+  <!-- End Header -->
+
+  <!-- Mobile search button -->
+  <button type="button" class="navbar-toggle search-toggle-button-mobile collapsed" data-toggle="collapse" data-target="#SearchBoxMobile" aria-expanded="false" title="Search">
+    <span class="sr-only">Toggle search</span>
+    <i class="fa fa-search"></i>
+  </button>
+  <!-- End Mobile search button -->
+
+  <!-- Landing page -->
+  <section class="landing-banner">
+
+    <div class="home-title">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <h1><span>Be a Part</span> <span>of Something Big</span></h1>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- End Landing page -->
+
+  <!-- Mobile Search -->
+  <div id="SearchBoxMobile" class="search-mobile collapsed" aria-expanded="false">
+    <!-- Search box -->
+    <div class="search-box visible-xs">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12">
+            <div class="search-box-content">
+
+              <h2>SEARCH ALL DEALER JOBS</h2>
+
+              <!-- Search bar -->
+              <!-- ^tmp_elements=search_bar^ -->
+              <script type="text/javascript">
+              var countryDropdownEnabled = false;
+              </script>
+
+              <div id="search-bar" class="" ng-controller="SearchBarController">
+                <div class="search-bar-element search-field-container">
+                  <label for="search-keywords-field" class="hidden-xs search-bar-keyword-label label-text">Keyword:</label>
+                  <input id="search-keywords-field" type="text" class="search-bar-keyword-field form-control" ng-model="keywordInput"
+                  ng-keydown="checkKeywordKeydown($event)" placeholder="Job Title or Category">
+                </div>
+                <div class="search-bar-element search-field-container search-location-field">
+                  <label for="search-location-field" class="hidden-xs search-bar-location-label label-text">Location:</label>
+
+                  <input id="search-location-field" autocomplete="off" type="text" class="form-control search-bar-location-field " ng-keydown="checkLocationKeydown($event)"
+                  ng-model="locationInput" ng-change="getSuggestions()" placeholder="City or Postal Code">
+                  <ul id="suggestions" class="list-group autocomplete-list suggestions-list" role="list" ng-show="locationSuggestions.length > 0" ng-cloak>
+                    <li ng-repeat="location in locationSuggestions" class="blockSpan list-group-item" ng-click="addToSelectedTags($index)"
+                    ng-mouseover="$parent.selectedIndex=$index" ng-class="{active : selectedIndex===$index}">{{$parent.googlePlacesAutocompleteEnabled ? location.description : location}}</li>
+                    <li ng-repeat-end class="autocompletefooter" ng-if="googlePlacesAutocompleteEnabled"><img src='/public/cms_base/img/powered_by_google_on_white.png' align='right'class='google-footer'></li>
+                  </ul>
+                </div>
+                <div class="search-bar-element search-widget-container">
+                  <a ng-href="{{searchUrl()}}" id="primary-search-button" target="_top" class="search-btn primary-button text-center label-text">Search</a>
+                </div>
+              </div>
+              <!-- End Search bar -->
+
+              <!-- View all jobs -->
+              <p class="link-center">
+                <a href="https://www.behance.net/alvarocentenotech" class="view-all-jobs" title="View All Jobs at John Deere Dealerships">View All Jobs at John Deere Dealerships</a>
+              </p>
+              <!-- End View all jobs -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Search box -->
+  </div>
+  <!-- End Mobile Search -->
+
+  <!-- Desktop Search -->
+  <div class="search-desktop-home navbar-fixed-top affix-top hidden-xs" role="navigation" data-spy="affix" data-offset-top="704">
+
+    <!-- Search box -->
+    <div class="search-box">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12">
+            <div class="search-box-content">
+
+              <div class="flex-container">
+                <h2>SEARCH ALL DEALER JOBS</h2>
+
+                <div class="link-container hidden-sm">
+                  <a href="#" title="View All Jobs at John Deere Dealerships">View All Jobs at John Deere Dealerships</a>
+                </div>
+              </div>
+
+
+              <!-- Search bar -->
+              <!-- ^tmp_elements=search_bar^ -->
+              <script type="text/javascript">
+              var countryDropdownEnabled = false;
+              </script>
+
+              <div id="search-bar" class="" ng-controller="SearchBarController">
+                <div class="search-bar-element search-field-container">
+                  <label for="search-keywords-field" class="hidden-xs search-bar-keyword-label label-text">Keyword:</label>
+                  <input id="search-keywords-field" type="text" class="search-bar-keyword-field form-control" ng-model="keywordInput"
+                  ng-keydown="checkKeywordKeydown($event)" placeholder="Job Title, Keyword, Category, or Dealership">
+                </div>
+                <div class="search-bar-element search-field-container search-location-field">
+                  <label for="search-location-field" class="hidden-xs search-bar-location-label label-text">Location:</label>
+
+                  <input id="search-location-field" autocomplete="off" type="text" class="form-control search-bar-location-field " ng-keydown="checkLocationKeydown($event)"
+                  ng-model="locationInput" ng-change="getSuggestions()" placeholder="City or Postal Code">
+                  <ul id="suggestions" class="list-group autocomplete-list suggestions-list" role="list" ng-show="locationSuggestions.length > 0" ng-cloak>
+                    <li ng-repeat="location in locationSuggestions" class="blockSpan list-group-item" ng-click="addToSelectedTags($index)"
+                    ng-mouseover="$parent.selectedIndex=$index" ng-class="{active : selectedIndex===$index}">{{$parent.googlePlacesAutocompleteEnabled ? location.description : location}}</li>
+                    <li ng-repeat-end class="autocompletefooter" ng-if="googlePlacesAutocompleteEnabled"><img src='/public/cms_base/img/powered_by_google_on_white.png' align='right'class='google-footer'></li>
+                  </ul>
+                </div>
+                <div class="search-bar-element search-widget-container">
+                  <a ng-href="{{searchUrl()}}" id="primary-search-button" target="_top" class="search-btn primary-button text-center label-text">Search</a>
+                </div>
+              </div>
+              <!-- End Search bar -->
+
+              <!-- View all jobs -->
+              <p class="link-center visible-sm">
+                <a href="/https://www.behance.net/alvarocentenotech" class="view-all-jobs" title="View All Jobs at John Deere Dealerships">View All Jobs at John Deere Dealerships</a>
+              </p>
+              <!-- End View all jobs -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Search box -->
+  </div>
+  <!-- End Desktop Search -->
+
+  <!-- Fix Affix -->
+  <section class="fix-affix">
+  </section>
+  <!-- End Fix Affix -->
+
+  <!-- Home Working -->
+  <section class="home-working">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <p class="main-title">Working for a John Deere dealership is bigger than just a job. It’s growth in oneself, on a path to becoming all you hoped to accomplish. It’s pride in your community, from the first neighbor you serve to supporting the next local business that opens. It’s knowing that what you do helps to feed, clothe, and shelter the world. It all starts with you. Starting here. Starting now!</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <!-- Service Jobs -->
+        <div class="col-xs-12 col-sm-6 col-lg-4">
+          <div class="image-container">
+            <img src="img/home-service-jobs.png" class="img-responsive" alt="Service Jobs">
+
+            <!-- Title -->
+            <div class="image-title">
+              <p class="title">Service Jobs</p>
+            </div>
+            <!-- End Title -->
+
+            <!-- Overlay -->
+            <div class="overlay">
+              <p class="sub-title">Service Jobs</p>
+
+              <div class="text-content">
+                <p>Know a thing or two about diagnosing problems and fixing equipment? Then here’s your chance to show how you can solve downtime in no time at all.  Bring the most important tools: your can-do spirit and positive attitude, and let’s get to work.</p>
+              </div>
+
+              <div class="link-container">
+                <a href="#" title="Learn More">Learn More</a>
+              </div>
+            </div>
+            <!-- End Overlay -->
+          </div>
+        </div>
+        <!-- End Service Jobs -->
+
+        <!-- Parts Jobs -->
+        <div class="col-xs-12 col-sm-6 col-lg-4">
+          <div class="image-container">
+            <img src="img/home-parts-jobs.png" class="img-responsive" alt="Parts Jobs">
+
+            <!-- Title -->
+            <div class="image-title">
+              <p class="title">Parts Jobs</p>
+            </div>
+            <!-- End Title -->
+
+            <!-- Overlay -->
+            <div class="overlay">
+              <p class="sub-title">Parts Jobs</p>
+
+              <div class="text-content">
+                <p>We have the right parts at the right price. We just need the right person—such as yourself—to be our next parts expert and keep customers’ machines up and running.</p>
+              </div>
+
+              <div class="link-container">
+                <a href="#" title="Learn More">Learn More</a>
+              </div>
+            </div>
+            <!-- End Overlay -->
+          </div>
+        </div>
+        <!-- End Parts Jobs -->
+
+        <!-- Sales Jobs -->
+        <div class="col-xs-12 col-sm-6 col-lg-4">
+          <div class="image-container">
+            <img src="img/home-sales-jobs.png" class="img-responsive" alt="Sales Jobs">
+
+            <!-- Title -->
+            <div class="image-title">
+              <p class="title">Sales Jobs</p>
+            </div>
+            <!-- End Title -->
+
+            <!-- Overlay -->
+            <div class="overlay">
+              <p class="sub-title">Sales Jobs</p>
+
+              <div class="text-content">
+                <p>Selling is an art. But if you’ve got the passion, then we can help you paint the picture of our unique John Deere brand experience to enlighten customers and business owners.</p>
+              </div>
+
+              <div class="link-container">
+                <a href="#" title="Learn More">Learn More</a>
+              </div>
+            </div>
+            <!-- End Overlay -->
+          </div>
+        </div>
+        <!-- End Sales Jobs -->
+
+        <!-- Technology Sales & Support Jobs -->
+        <div class="col-xs-12 col-sm-6 col-lg-4">
+          <div class="image-container">
+            <img src="img/home-technology-jobs.png" class="img-responsive" alt="Technology Sales & Support Jobs">
+
+            <!-- Title -->
+            <div class="image-title">
+              <p class="title">Technology Sales & Support Jobs</p>
+            </div>
+            <!-- End Title -->
+
+            <!-- Overlay -->
+            <div class="overlay">
+              <p class="sub-title">Technology Sales & Support Jobs</p>
+
+              <div class="text-content">
+                <p>Times are changing. And technology is evolving. If you have a knack for keeping up with the latest and greatest in equipment and services, then you’re in the right place.</p>
+              </div>
+
+              <div class="link-container">
+                <a href="#" title="Learn More">Learn More</a>
+              </div>
+            </div>
+            <!-- End Overlay -->
+          </div>
+        </div>
+        <!-- End Technology Sales & Support Jobs -->
+
+        <!-- Inter-Dealership Jobs -->
+        <div class="col-xs-12 col-sm-6 col-lg-4">
+          <div class="image-container">
+            <img src="img/home-dealership-jobs.png" class="img-responsive" alt="Inter-Dealership Jobs">
+
+            <!-- Title -->
+            <div class="image-title">
+              <p class="title">Inter-Dealership Jobs</p>
+            </div>
+            <!-- End Title -->
+
+            <!-- Overlay -->
+            <div class="overlay">
+              <p class="sub-title">Inter-Dealership Jobs</p>
+
+              <div class="text-content">
+                <p>From marketing to HR, and accounting to front desk, you can get that attractive “office” job you’ve always wanted—without the stuffy corporate office, of course.</p>
+              </div>
+
+              <div class="link-container">
+                <a href="#" title="Learn More">Learn More</a>
+              </div>
+            </div>
+            <!-- End Overlay -->
+          </div>
+        </div>
+        <!-- End Inter-Dealership Jobs -->
+
+        <!-- All Jobs -->
+        <div class="col-xs-12 col-sm-6 col-lg-4">
+          <div class="image-container">
+            <img src="img/home-all-jobs.png" class="img-responsive" alt="All Jobs">
+
+            <!-- Title -->
+            <div class="image-title">
+              <p class="title">All Jobs</p>
+            </div>
+            <!-- End Title -->
+
+            <!-- Overlay -->
+            <div class="overlay">
+              <p class="sub-title">All Jobs</p>
+
+              <div class="text-content">
+                <p>Don't know exactly where you fit yet? At a John Deere dealership, it's about more than just sales, service, and support. Click here to see all of the great positions available today.</p>
+              </div>
+
+              <div class="link-container">
+                <a href="#" title="Learn More">Learn More</a>
+              </div>
+            </div>
+            <!-- End Overlay -->
+          </div>
+        </div>
+        <!-- End All Jobs -->
+      </div>
+    </div>
+  </section>
+  <!-- End Home Working -->
+
+  <!-- Not Ready To Apply? -->
+  <section class="not-ready">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-md-8 col-md-push-2">
+          <h2>Not Ready To Apply?</h2>
+
+          <p>Joining our Talent Network will enhance your job search and application process. Whether you choose to apply or just leave your information, we look forward to staying connected with you.</p>
+
+          <div class="button-container">
+            <a href="#" class="btn btn-join" title="Join Our Talent Network">Join Our Talent Network</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Not Ready To Apply? -->
+
+  <!-- Footer -->
+  <footer>
+    <section class="footer-top">
+      <div class="container">
+        <div class="row">
+          <!-- Logo -->
+          <div class="col-xs-12 col-md-6">
+            <!-- Logo desktop -->
+            <div class="logo-footer">
+              <a href="https://www.behance.net/alvarocentenotech" title="John Deere Careers" alt="John Deere Careers">
+                <img src="img/logo-footer.png" class="img-responsive" alt="John Deere Careers">
+              </a>
+            </div>
+
+            <!-- End Logo desktop -->
+          </div>
+          <!-- End Logo -->
+
+          <!--  Navigation -->
+          <div class="col-xs-12 col-md-6">
+            <ul class="navigation">
+              <li><a href="https://www.behance.net/alvarocentenotech" title="Home">Home</a></li>
+              <li><a href="#" title="View All Dealer Jobs">View All Dealer Jobs</a></li>
+            </ul>
+          </div>
+          <!-- End Navigation -->
+
+          <!-- Legal -->
+          <div class="col-xs-12">
+            <p class="notice"><b>Important Notice</b> John Deere provides this web site as a service for independently owned John Deere dealers. The positions listed on this site are for positions with a dealership and are not employment opportunities with John Deere. Any employment application, interview or job opportunity is between the dealer and the applicant. Please review the <a href="https://www.deere.com/en/privacy-and-data/terms/" title="legal notice" target="_blank">legal notice</a> for additional information.</p>
+          </div>
+          <!-- End Legal -->
+
+          <!-- Social -->
+          <div class="col-xs-12 col-md-4 col-md-push-8">
+            <!-- Social icons -->
+            <div class="social-icons">
+              <ul class="list-inline social-items">
+                <li><a href="#" class="custom-social" target="_blank" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="#" class="custom-social" target="_blank" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a href="#" class="custom-social" target="_blank" title="YouTube"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+                <li><a href="#" class="custom-social" target="_blank" title="LinkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                <li><a href="#" class="custom-social" target="_blank" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+              </ul>
+            </div>
+            <!-- End Social Icons -->
+          </div>
+          <!-- End Social -->
+
+          <!-- Terms Condition -->
+          <div class="col-xs-12 col-md-8 col-md-pull-4">
+            <ul class="copyright">
+              <li><p>Copyright © 2019 Deere & Company,</p></li>
+              <li><p>All Rights Reserved.</p></li>
+              <li class="divider"><p>|</p></li>
+              <li class="visible-md"></li>
+              <li><a href="#">Privacy Policy</a>  <span>|</span> <a href="#"> Terms and Conditions</a></li>
+            </ul>
+          </div>
+          <!-- End Terms Condition -->
+        </div>
+      </div>
+    </section>
+  </footer>
+  <!-- End Footer -->
+
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDX9bDtzse0NKvnFFtJOY-G3DJMwSuZzHg&libraries=places"></script>
+  <script type="text/javascript" src="assets/public/cms_base/version/935a51c32c21711dedacab4a6359b01c78d0912f/angular/scripts/tn_scripts.min.js"></script>
+
+</body>
+</html>
